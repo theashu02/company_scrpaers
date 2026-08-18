@@ -14,24 +14,23 @@ from urllib.parse import urlencode
 import requests
 from bs4 import BeautifulSoup
 
-from config.config import ScraperConfig, config, ALL_INDUSTRIES
+from config.config import SequoiaConfig, config, ALL_INDUSTRIES
 from core.browser import BrowserManager
+from core.base_scraper import BaseScraper
 from transformers.datatransform import DataTransformer, CompanyModel
 
 logger = logging.getLogger(__name__)
 
 
-class SequoiaScraper:
+class SequoiaScraper(BaseScraper):
     """
     Main scraper engine for Sequoia Capital portfolio companies.
     Iterates through parameterized industry URLs, intercepts 'search-companies' API payloads,
     and enriches company records with verified website, career, and social profile links.
     """
 
-    def __init__(self, cfg: Optional[ScraperConfig] = None):
-        self.cfg = cfg or config
-        self.browser_manager = BrowserManager(self.cfg)
-        self.transformer = DataTransformer(self.cfg)
+    def __init__(self, cfg: Optional[SequoiaConfig] = None):
+        super().__init__(cfg or config)
 
     def build_industry_url(self, industry: str) -> str:
         """Constructs parameterized URL for a single industry."""

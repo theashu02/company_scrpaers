@@ -1,0 +1,469 @@
+{
+    "results": {
+        "companies": [
+            {
+                "active_jobs_count": 5,
+                "stage": "series_f",
+                "logo_url": "https://cdn.getro.com/companies/679efa0f-cff9-4d12-90f6-89db46b96b14-1761183740",
+                "topics": [],
+                "domain": "alivecor.com",
+                "name": "AliveCor",
+                "description": "AliveCor is an FDA-cleared mobile heart solution that helps save lives, save money, and brings healthcare into the 21st century.",
+                "head_count": 3,
+                "locations": [
+                    "Mountain View, CA, USA",
+                    "Oklahoma City, OK, USA"
+                ],
+                "industry_tags": [
+                    "App Development",
+                    "Artificial Intelligence",
+                    "ECG",
+                    "Health \u0026 Fitness",
+                    "Health Care",
+                    "Healthcare",
+                    "HealthTech",
+                    "Information Technology",
+                    "iPhone \u0026 Android",
+                    "Medical Device",
+                    "Medical Equipment",
+                    "mHealth",
+                    "Mobile",
+                    "Mobile App",
+                    "Monitoring Equipment",
+                    "Other Healthcare Technology Systems",
+                    "Remote Patient Monitoring",
+                    "Software",
+                    "Technology",
+                    "Wellness and Fitness Services"
+                ],
+                "slug": "alivecor",
+                "visible_industry_tags": [
+                    "Health Care",
+                    "Information Technology",
+                    "Medical Device",
+                    "Mobile",
+                    "Software",
+                    "Wellness and Fitness Services"
+                ],
+                "id": 14737
+            },
+            {
+                "active_jobs_count": 0,
+                "stage": "seed",
+                "logo_url": "https://cdn.getro.com/companies/63e20afd-4818-4997-9671-5662b4995fbc-1760751836",
+                "topics": [],
+                "domain": "allday.com",
+                "name": "All Day Kitchens",
+                "description": "All Day is building an editorial media brand and publishing technology for mobile-first Millennial audiences. The company leverages a network of owned and partner Social Media properties for content distribution and audience engagement, driving content sharing and virality. All Day’s network partners, writers, and editors manage posts, track analytics, and grow engagement through its CMS and Social distribution dashboard.\n\nToday, All Day maintains and engages a growing audience on Social Media channels through owned and operated content brands with over 28 million followers, as well as a distribution network reaching over 200 million followers across Twitter, Facebook, and Instagram. Included among the company’s more popular social accounts are HistoryinPics and EarthPix on Twitter. Through these owned and partner accounts, All Day distributes highly visual and shareable editorial content, which is often featured on its destination site AllDay.com.",
+                "head_count": 2,
+                "locations": [
+                    "San Francisco, CA, USA",
+                    "Los Angeles, CA, USA",
+                    "Outpost Estates, Los Angeles, CA, USA"
+                ],
+                "industry_tags": [
+                    "Advertising",
+                    "Advertising Services",
+                    "Digital Media",
+                    "Internet Services",
+                    "Marketing",
+                    "Media",
+                    "Media \u0026 Entertainment",
+                    "Publishing",
+                    "Sales \u0026 Marketing",
+                    "Social Content",
+                    "Social Media",
+                    "Social/Platform Software",
+                    "Technology"
+                ],
+                "slug": "all-day-kitchens-2",
+                "visible_industry_tags": [
+                    "Advertising",
+                    "Advertising Services",
+                    "Digital Media",
+                    "Marketing",
+                    "Social Media"
+                ],
+                "id": 56262
+            },
+            {
+                "active_jobs_count": 7,
+                "stage": "seed",
+                "logo_url": "https://cdn.getro.com/companies/ed2bd1b4-57f6-47ca-971b-9f3da9b181b0-1768387826",
+                "topics": [],
+                "domain": "alljoined.com",
+                "name": "Alljoined",
+                "description": "Alljoined interprets neural signals from consumer-grade EEG devices to translate thoughts, emotions, and intended actions into digital commands. Its technology focuses on enhancing interaction between humans and machines by enabling intuitive control and communication without physical input devices or implants. Alljoined’s work supports applications across accessibility, gaming, wellness, and human-computer interaction research, contributing to the broader advancement of neural signal processing and cognitive technology integration.",
+                "head_count": 1,
+                "locations": [
+                    "San Francisco, CA, USA"
+                ],
+                "industry_tags": [
+                    "Artificial Intelligence (AI)",
+                    "Biotechnology",
+                    "Data \u0026 Analytics",
+                    "Data Collection",
+                    "Data Collection and Labeling",
+                    "Deep Learning",
+                    "EEG",
+                    "Machine Learning",
+                    "Neuroscience",
+                    "Other Healthcare Technology Systems",
+                    "Science and Engineering",
+                    "Software",
+                    "Transformers"
+                ],
+                "slug": "alljoined",
+                "visible_industry_tags": [
+                    "Data Collection and Labeling",
+                    "Machine Learning",
+                    "Neuroscience"
+                ],
+                "id": 3166742
+            },
+            {
+                "active_jobs_count": 0,
+                "stage": "other",
+                "logo_url": "https://cdn.getro.com/companies/61b25320-b53c-53ea-9fa4-01ba9ce56f88",
+                "topics": [],
+                "domain": "alpineot.com",
+                "name": "Alpine Oral Tech",
+                "description": "Developer of an oral care device designed to reduce gum diseases and infections. The company's device is a professional flossing system used to deep clean between teeth and below the gumline by positioning water flossing jets paired with minty and tingly power rinse, enabling patients to improve oral health and get fresh breath.",
+                "head_count": 2,
+                "locations": [
+                    "Mountain View, CA, USA",
+                    "Villa Park, CA, USA",
+                    "Magalia, CA, USA"
+                ],
+                "industry_tags": [
+                    "Therapeutic Devices"
+                ],
+                "slug": "alpine-oral-tech",
+                "visible_industry_tags": [],
+                "id": 14738
+            },
+            {
+                "active_jobs_count": 0,
+                "stage": "series_unknown",
+                "logo_url": "https://cdn.getro.com/companies/397e4ede-d289-4f3c-b261-18b497bf74a6-1766021910",
+                "topics": [],
+                "domain": "altarockenergy.com",
+                "name": "AltaRock Energy",
+                "description": "AltaRock Energy is a renewable energy development company focused on the research and development of Engineered Geothermal Systems (“EGS”). AltaRock has filed patent applications for a portfolio of patents in the EGS area and holds exclusive licenses for related intellectual property.\n\nThe company has its corporate headquarters in Sausalito, CA, and its technology development office in Seattle, WA. Its principals include Don O'Shei, Chief Executive Officer, and Susan Petty, President/Chief Technology Officer and an AltaRock Energy founder.",
+                "head_count": 1,
+                "locations": [
+                    "Seattle, WA, USA",
+                    "University of Washington, Seattle, WA, USA"
+                ],
+                "industry_tags": [
+                    "Business And Industrial",
+                    "Cleantech",
+                    "Energy",
+                    "Energy \u0026 Utilities",
+                    "Energy Infrastructure",
+                    "Energy Production",
+                    "Geothermal",
+                    "Geothermal Energy",
+                    "Natural Resources",
+                    "Oil and Gas",
+                    "Renewable Energy Semiconductor Manufacturing",
+                    "Renewables",
+                    "Solar Power",
+                    "Sustainability",
+                    "Wind Power"
+                ],
+                "slug": "altarock-energy-2",
+                "visible_industry_tags": [
+                    "Cleantech",
+                    "Energy",
+                    "Geothermal Energy",
+                    "Natural Resources",
+                    "Renewable Energy Semiconductor Manufacturing"
+                ],
+                "id": 66381
+            },
+            {
+                "active_jobs_count": 13,
+                "stage": "other",
+                "logo_url": "https://cdn.getro.com/companies/780c9090-1efe-5e96-bfee-c9c319ad4d12",
+                "topics": [],
+                "domain": "amyris.com",
+                "name": "Amyris",
+                "description": "Amyris Biotechnologies creates renewable products that focus on fuels and chemicals that provide no-compromise sustainable alternatives to a broad range of petroleum-sourced products. It uses an industrial synthetic biology platform that applies its innovative bioscience solutions to convert plant sugars into hydrocarbon molecules and produce specialty ingredients and consumer products. Its technology creates products that support biopharmaceutical drug discovery and production, from cosmetic emollients and fragrances to fuels, solvents, lubricants, and nutraceuticals.",
+                "head_count": 4,
+                "locations": [
+                    "Emeryville, CA, USA",
+                    "Leland, NC, USA",
+                    "Brindisi, BR, Italy",
+                    "Emeryville, ON N0R, Canada"
+                ],
+                "industry_tags": [
+                    "Biotechnology",
+                    "Chemical",
+                    "Cleantech",
+                    "Food \u0026 Beverage",
+                    "Health Care",
+                    "Pharmaceutical",
+                    "Renewable Energy",
+                    "Sustainability"
+                ],
+                "slug": "amyris",
+                "visible_industry_tags": [
+                    "Biotechnology",
+                    "Chemical",
+                    "Cleantech",
+                    "Renewable Energy"
+                ],
+                "id": 105910
+            },
+            {
+                "active_jobs_count": 39,
+                "stage": "other",
+                "logo_url": "https://cdn.getro.com/companies/afaf3a28-9734-46ba-8ec0-674c5baaa998-1763516382",
+                "topics": [],
+                "domain": "anchorage.com",
+                "name": "Anchorage Digital",
+                "description": "Anchorage Digital is a regulated crypto platform that provides institutions with integrated financial services and infrastructure solutions. With the only federally chartered crypto bank in the US, as well as Anchorage Digital Singapore, which offers equivalent security and service standards, Anchorage Digital provides institutions an unparalleled combination of secure custody, regulatory compliance, product breadth, and client service.\n\nFounded in 2017, Anchorage Digital is valued at over $3 billion with funding from leading institutions including Andreessen Horowitz, GIC—Singapore’s sovereign wealth fund, Goldman Sachs, KKR, and Visa. Headquartered in San Francisco, California, Anchorage Digital is remote-friendly with offices in New York, New York; Porto, Portugal; Singapore; and Sioux Falls, South Dakota. Learn more at anchorage.com, on Twitter @Anchorage, and on LinkedIn.",
+                "head_count": 4,
+                "locations": [
+                    "San Francisco, CA, USA",
+                    "Sioux Falls, SD, USA",
+                    "Singapore",
+                    "Porto, Portugal"
+                ],
+                "industry_tags": [
+                    "Blockchain",
+                    "Cryptocurrency",
+                    "Digital Asset Custody",
+                    "Finance",
+                    "Financial Services",
+                    "Fintech",
+                    "Payments",
+                    "Privacy and Security",
+                    "Software"
+                ],
+                "slug": "anchorage-digital",
+                "visible_industry_tags": [
+                    "Blockchain",
+                    "Cryptocurrency",
+                    "Financial Services",
+                    "Fintech",
+                    "Software"
+                ],
+                "id": 13831
+            },
+            {
+                "active_jobs_count": 18,
+                "stage": "series_c",
+                "logo_url": "https://cdn.getro.com/companies/f3294622-d599-4331-a207-e8954dbbc11c-1760837851",
+                "topics": [],
+                "domain": "anrok.com",
+                "name": "Anrok",
+                "description": "Anrok provides a software platform for global sales tax and VAT compliance. It handles integration with billing, payment, and HR systems to monitor tax exposure, validate VAT IDs, automate sales tax calculations, manage registrations, and coordinate filing and remittance processes. The company supports real-time tax collection, tracking of physical and economic nexus, and consolidated compliance reporting across jurisdictions. It offers no-code and API-based connections to finance stacks, facilitating audit-ready transaction logs and jurisdictional coverage for digital services and goods.",
+                "head_count": 3,
+                "locations": [
+                    "San Francisco, CA, USA"
+                ],
+                "industry_tags": [
+                    "Automation/Workflow Software",
+                    "Business/Productivity Software",
+                    "Cloud services(SaaS)",
+                    "Compliance",
+                    "Financial Management",
+                    "Financial Services",
+                    "Financial Software",
+                    "Fintech",
+                    "Media and Information Services (B2B)",
+                    "Professional Services",
+                    "SaaS",
+                    "Software",
+                    "Software Development",
+                    "Tax",
+                    "Tax Preparation",
+                    "Technology"
+                ],
+                "slug": "anrok",
+                "visible_industry_tags": [
+                    "Compliance",
+                    "Financial Services",
+                    "SaaS",
+                    "Software",
+                    "Software Development",
+                    "Tax Preparation"
+                ],
+                "id": 66139
+            },
+            {
+                "active_jobs_count": 10,
+                "stage": "acquisition",
+                "logo_url": "https://cdn.getro.com/companies/26c79bf4-6188-41e7-a49e-5adbc5085e31-1762652042",
+                "topics": [],
+                "domain": "aptonbio.com",
+                "name": "Apton Biosystems",
+                "description": "Apton Biosystems develops an optical system designed for sequencing and protein detection, using super-resolution to assess molecules spaced closer than a wavelength of light. It enables biomarker discovery, early disease detection, and therapeutic monitoring, advancing preventive health and precision medicine.",
+                "head_count": 2,
+                "locations": [
+                    "Pleasanton, CA, USA"
+                ],
+                "industry_tags": [
+                    "Biotech",
+                    "Biotechnology",
+                    "Biotechnology Research",
+                    "Data \u0026 Analytics",
+                    "Design",
+                    "Diagnostic Equipment",
+                    "Genetics",
+                    "Health Care",
+                    "Healthcare",
+                    "Life Sciences",
+                    "Market Research",
+                    "Medical Diagnostics",
+                    "Platform",
+                    "Science and Engineering",
+                    "Technology",
+                    "Therapeutics"
+                ],
+                "slug": "apton-biosystems",
+                "visible_industry_tags": [
+                    "Biotechnology",
+                    "Biotechnology Research",
+                    "Genetics",
+                    "Health Care"
+                ],
+                "id": 14739
+            },
+            {
+                "active_jobs_count": 0,
+                "stage": "series_unknown",
+                "logo_url": "https://cdn.getro.com/companies/8f2b2db1-8c77-5386-9f6f-ee262820bf36-1748237341",
+                "topics": [],
+                "domain": "arevo.com",
+                "name": "Arevo",
+                "description": "AREVO, based in Silicon Valley, California, develops technology to enable direct digital additive manufacturing of ultra-strong, lightweight composite parts for end-use applications in high volume.\n\nWith the company's unique combination of breakthrough materials, powerful design/build software, and free motion robotics for the first “true 3D” construction, AREVO is moving beyond prototypes by enabling the design and fabrication of large, mass-produced parts and structures, quickly leading 3D printing into mainstream manufacturing. AREVO provides designers and manufacturers with unprecedented freedom to unlock the unparalleled strength and weight of composite materials for a wide range of consumer and industrial products and has seen early success manufacturing CFRTP composite parts for OEM customers. With an initial focus on Aerospace, Defense, Consumer Electronics, Transportation, and Consumer Goods, AREVO is poised to optimize additive manufacturing services to OEMs worldwide.",
+                "head_count": 2,
+                "locations": [
+                    "Milpitas, CA, USA",
+                    "Santa Clara, CA, USA"
+                ],
+                "industry_tags": [
+                    "3D Printing",
+                    "Additive Manufacturing",
+                    "Advanced Materials",
+                    "Application Software",
+                    "Automation",
+                    "Business And Industrial",
+                    "Computer",
+                    "Consumer Electronics",
+                    "Hardware",
+                    "Manufacturing",
+                    "Manufacturing \u0026 Industrial",
+                    "Other Commercial Services",
+                    "Robotics",
+                    "Science and Engineering",
+                    "Software",
+                    "Software Development"
+                ],
+                "slug": "arevo-2",
+                "visible_industry_tags": [
+                    "3D Printing",
+                    "Computer",
+                    "Manufacturing",
+                    "Robotics",
+                    "Software",
+                    "Software Development"
+                ],
+                "id": 31445
+            },
+            {
+                "active_jobs_count": 219,
+                "stage": "other",
+                "logo_url": "https://cdn.getro.com/companies/9e4f8402-ef48-5be2-902a-f823cf5c09cc-1748396184",
+                "topics": [],
+                "domain": "arista.com",
+                "name": "Arista Networks",
+                "description": "Arista Networks is the leader in building scalable, high-performance, and ultra-low-latency networks for today's data center and cloud computing environments.",
+                "head_count": 5,
+                "locations": [
+                    "San Francisco, CA, USA",
+                    "Austin, TX, USA",
+                    "Bengaluru, Karnataka, India",
+                    "Dublin, Ireland",
+                    "Santa Clara, CA, USA",
+                    "Pune, Maharashtra, India",
+                    "Nashua, NH, USA",
+                    "Singapore",
+                    "Cary, NC, USA",
+                    "Bayan Lepas, Penang, Malaysia",
+                    "Seongnam-si, Gyeonggi-do, South Korea",
+                    "Burnaby, BC, Canada",
+                    "New York, NY, USA",
+                    "Shannon, Co. Clare, Ireland",
+                    "Sydney NSW, Australia"
+                ],
+                "industry_tags": [
+                    "AI Infrastructure",
+                    "Cloud Computing",
+                    "Data Center Automation",
+                    "Hardware",
+                    "Information Technology",
+                    "Software"
+                ],
+                "slug": "arista-networks-2",
+                "visible_industry_tags": [
+                    "AI Infrastructure",
+                    "Cloud Computing",
+                    "Data Center Automation",
+                    "Hardware",
+                    "Information Technology",
+                    "Software"
+                ],
+                "id": 24966
+            },
+            {
+                "active_jobs_count": 0,
+                "stage": "series_a",
+                "logo_url": "https://cdn.getro.com/companies/34822112-5e53-4d1c-90ee-91d85d5d93cf-1760405727",
+                "topics": [],
+                "domain": "arpeggiobio.com",
+                "name": "Arpeggio",
+                "description": "Arpeggio Biosciences leverages state-of-the-art sequencing approaches coupled with powerful machine learning to uncover novel insights into a compound's biological mechanism of action. The company is a diverse set of molecular biologists, computer scientists, and biotechnology enthusiasts passionate about understanding where, why, and how therapeutics work.",
+                "head_count": 2,
+                "locations": [
+                    "Boulder, CO, USA"
+                ],
+                "industry_tags": [
+                    "Artificial Intelligence",
+                    "Artificial Intelligence (AI)",
+                    "Biotech",
+                    "Biotechnology",
+                    "Biotechnology Research",
+                    "Data \u0026 Analytics",
+                    "Drug Development",
+                    "Drug Discovery",
+                    "Health Care",
+                    "Machine Learning",
+                    "Next Generation Sequencing",
+                    "Other Healthcare Technology Systems",
+                    "Pharmaceutical",
+                    "Platform",
+                    "RNA",
+                    "Science and Engineering",
+                    "Software",
+                    "Statistics",
+                    "Technology",
+                    "Therapeutics"
+                ],
+                "slug": "arpeggio-2",
+                "visible_industry_tags": [
+                    "Biotechnology",
+                    "Health Care",
+                    "Machine Learning",
+                    "Pharmaceutical",
+                    "Therapeutics"
+                ],
+                "id": 75513
+            }
+        ],
+        "count": 403
+    }
+}

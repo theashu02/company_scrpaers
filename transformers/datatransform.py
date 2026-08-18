@@ -10,7 +10,8 @@ import logging
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Union
-from config.config import ScraperConfig, config
+from config.core_config import BrowserConfig
+from config.config import config
 
 logger = logging.getLogger(__name__)
 
@@ -189,7 +190,7 @@ class DataTransformer:
     Transforms raw JSON responses into standardized, deduplicated, link-enriched CompanyModel records.
     """
 
-    def __init__(self, cfg: Optional[ScraperConfig] = None):
+    def __init__(self, cfg: Optional[BrowserConfig] = None):
         self.cfg = cfg or config
 
     def transform_single(self, raw: Dict[str, Any], industry_tag: Optional[str] = None) -> CompanyModel:

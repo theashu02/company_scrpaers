@@ -6,7 +6,8 @@ Handles Playwright browser lifecycle, stealth configuration, and dynamic scrolli
 import asyncio
 import logging
 from typing import Callable, Optional
-from config.config import ScraperConfig, config
+from config.core_config import BrowserConfig
+from config.config import config
 
 logger = logging.getLogger(__name__)
 
@@ -17,7 +18,7 @@ class BrowserManager:
     Provides async context management and helper functions for scraping.
     """
 
-    def __init__(self, cfg: Optional[ScraperConfig] = None):
+    def __init__(self, cfg: Optional[BrowserConfig] = None):
         self.cfg = cfg or config
         self._playwright = None
         self._browser = None
@@ -70,7 +71,10 @@ class BrowserManager:
         page,
         get_current_count: Optional[Callable[[], int]] = None,
         max_scrolls: int = 35,
-        scroll_delay: float = 1.3
+        scroll_delay: float = 1.3,
+        api_pattern: Optional[str] = None,
+        slow_scroll: bool = False,
+        continue_condition: Optional[Callable[[], bool]] = None
     ) -> int:
         """
         Continuously scrolls down until all items have been fetched or bottom is reached.
@@ -81,8 +85,23 @@ class BrowserManager:
         scroll_count = 0
 
         while scroll_count < max_scrolls:
-            # Scroll to the bottom
-            await page.evaluate("() => window.scrollTo(0, document.body.scrollHeight)")
+            if continue_condition is not None and not continue_condition():
+                logger.debug("Continue condition evaluated to False. Stopping scroll.")
+                break
+                
+            # Scroll to the bottom or slowly
+            scroll_script = "() => window.scrollBy(0, window.innerHeight)" if slow_scroll else "() => window.scrollTo(0, document.body.scrollHeight)"
+            
+            if api_pattern:
+                try:
+                    async with page.expect_response(lambda r: api_pattern in r.url and r.status == 200, timeout=10000):
+                        await page.evaluate(scroll_script)
+                except Exception as e:
+                    logger.debug(f"Timeout waiting for response matching '{api_pattern}' during scroll.")
+                    # If it times out, we still executed the scroll but no API fired, which might be fine if we reached the end
+            else:
+                await page.evaluate(scroll_script)
+                
             await asyncio.sleep(scroll_delay)
             scroll_count += 1
 
@@ -110,6 +129,67 @@ class BrowserManager:
 
         return scroll_count
 
+    async def click_load_more_and_scroll(
+        self,
+        page,
+        button_selector: str,
+        get_current_count: Optional[Callable[[], int]] = None,
+        max_clicks: int = 50,
+        click_delay: float = 2.0,
+        api_pattern: Optional[str] = None,
+        max_scrolls: int = 10,
+        continue_condition: Optional[Callable[[], bool]] = None
+    ) -> int:
+        """
+        Continuously clicks a 'Load More' button until it disappears, becomes disabled,
+        or max_clicks is reached.
+        """
+        click_count = 0
+        while click_count < max_clicks:
+            try:
+                # Wait a tiny bit for the button to be visible/enabled
+                button = await page.wait_for_selector(button_selector, state="visible", timeout=5000)
+                if not button:
+                    break
+                    
+                is_disabled = await button.get_attribute("disabled")
+                if is_disabled is not None:
+                    break
+                    
+                # The Khosla button has data-loading="false", maybe we should wait if it's true
+                # For safety, let's just click it
+                await button.scroll_into_view_if_needed()
+                
+                if api_pattern:
+                    try:
+                        async with page.expect_response(lambda r: api_pattern in r.url and r.status == 200, timeout=15000):
+                            await button.click()
+                    except Exception as e:
+                        logger.warning(f"Timeout waiting for response matching '{api_pattern}': {e}")
+                else:
+                    await button.click()
+                    
+                click_count += 1
+                logger.info(f"Clicked 'Load More' button (Click #{click_count})")
+                await asyncio.sleep(click_delay)
+                
+            except Exception as e:
+                logger.info(f"Finished clicking 'Load More'. Button not found or clickable: {e}")
+                break
+                
+        # After clicking load more, we do a scroll till end to make sure all images/lazy-loading finishes
+        await self.scroll_till_end(
+            page, 
+            get_current_count, 
+            max_scrolls=max_scrolls, 
+            scroll_delay=1.0, 
+            api_pattern=api_pattern,
+            slow_scroll=True,
+            continue_condition=continue_condition
+        )
+        
+        return click_count
+
     async def close(self):
         """Closes open pages, context, and browser instances."""
         if self._context:
@@ -129,7 +209,7 @@ class HTTPClient:
     Lightweight resilient HTTP client using requests for direct API queries.
     """
 
-    def __init__(self, cfg: Optional[ScraperConfig] = None):
+    def __init__(self, cfg: Optional[BrowserConfig] = None):
         self.cfg = cfg or config
 
     def fetch_json(self, url: str, params: Optional[dict] = None) -> Optional[dict]:

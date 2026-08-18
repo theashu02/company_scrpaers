@@ -1,7 +1,11 @@
 from .config import (
-    ScraperConfig,
+    SequoiaConfig,
+    KhoslaConfig,
     config,
     ALL_INDUSTRIES,
+)
+from .core_config import (
+    BrowserConfig,
     BASE_DIR,
     DATA_DIR,
     RAW_DATA_DIR,
@@ -9,7 +13,9 @@ from .config import (
 )
 
 __all__ = [
-    "ScraperConfig",
+    "BrowserConfig",
+    "SequoiaConfig",
+    "KhoslaConfig",
     "config",
     "ALL_INDUSTRIES",
     "BASE_DIR",
