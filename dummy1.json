@@ -1,0 +1,2969 @@
+{
+    "version": {
+        "client": {
+            "git": "c6d2fd7b5cb92ade06e980c227ee0b160b3992ef",
+            "date": "2026-08-13T22:34:04.983Z"
+        },
+        "server": {
+            "git": "c6d2fd7b5cb92ade06e980c227ee0b160b3992ef",
+            "date": "2026-08-13T22:34:04.983Z"
+        }
+    },
+    "companies": [
+        {
+            "description": "Design, build, test, and iterate physical systems in hours, not months.\n\nBacked by Sequoia Capital, Patrick and John Collison, and David Helgason.\nUsed by Rivian, Joby, Astranis, and Radiant.",
+            "domain": "flowengineering.com",
+            "emailDomains": [
+                "flowengineering.com"
+            ],
+            "id": "Flow Engineering",
+            "investorSlugs": [
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Sequoia Capital"
+            ],
+            "jobSources": [
+                {
+                    "id": "ashbyhq",
+                    "label": "Ashby",
+                    "value": "ashbyhq",
+                    "count": 21
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/7bbd9f6e8507c5738daeb539f349cea9_256_160?Expires=1861920000&Signature=UPEiTOxOch3OZx9N7dQHEzHYQgBiv7P86RiPsN7DBR6VPphNj07ulQusMF~~Fs71-KXoptkRSpOYz0-OuQ0Kk1Ozma34S3px2waJwDYJhIpUGF0ONRUMisgj0ha~LLsihYh4NUrb5hKsDQngMK4LrXT524XQyVVRHER2hOo7eWVPC-g24TlWQls1UsJZ45GBpTuDGArT2mt6MXd7XQpv0wiM~95q6g-is26aEamaAhHxZ8k6XfggY5F4Az729QC4-Sx0QOnQa3KnPW02vADFBfI4T8ASNnFvKu62aq455pBhowgilK91vUkTrSQppfXgCh2V1PEt7WSJ14-l~OAA1g__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 256
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/e1528cce3b1b15e034efa3b2fe561f17_100_100?Expires=1893456000&Signature=Qw1S1n39QF0tKwCorHhMTjAy5~CpV6rE2hcxgN-subzLqo~LWRB6-xFLg2osNWZav9lloVnW02pMoxB0CwfFJTf7IPTI1nMPEOrnobzpCZBBVnHvwaH4H1EF70Ks3yrN4spKZUJ28tLjfUMxaPH6M5MwacKX6JYxtyKDE0V6iFoAy0EUb4NPwWsmhKxZ-ptYBwHm2bcTvpzjfT3HXBrVth99Z1xs1QWZ3hCMNzueCs0j25xI36Al0PLGR3sJDOLhYXgj0GJT2kelEKR5oJV2yh4rq41lKWWGyLHSUdhrhdd4x~E0aM3ovTUv5Rm8KBOpjrrOdJcFhyLLnfF5MI29kg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Enterprise Software",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "San Francisco, California"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "San Francisco, California",
+                    "label": "San Francisco, California",
+                    "value": "San Francisco, California"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 32,
+            "name": "Flow Engineering",
+            "numJobs": 21,
+            "numRemoteJobs": 6,
+            "fractionRemote": 0.2857142857142857,
+            "numInternships": 0,
+            "numManagerJobs": 1,
+            "parentSlugs": [
+                "sequoia-capital"
+            ],
+            "parents": [
+                "Sequoia Capital"
+            ],
+            "slug": "flow-engineering",
+            "stages": [
+                "10-100 employees",
+                "Series A"
+            ],
+            "stagesLV": [
+                {
+                    "id": "10-100 employees",
+                    "label": "10-100 employees",
+                    "value": "10-100 employees"
+                },
+                {
+                    "id": "Series A",
+                    "label": "Series A",
+                    "value": "Series A"
+                }
+            ],
+            "fundingLV": {
+                "id": "Series A",
+                "label": "Series A",
+                "value": "Series A"
+            },
+            "sizeLV": {
+                "id": "10-100 employees",
+                "label": "10-100 employees",
+                "value": "10-100 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": true,
+            "website": {
+                "url": "https://flowengineering.com/",
+                "label": "flowengineering.com"
+            }
+        },
+        {
+            "description": "Edra is the knowledge layer for AI agents - it learns how your business actually runs from the data you already have, turns that tribal knowledge into a living, auditable library, and deploys agents that execute it inside your existing systems.",
+            "domain": "edra.ai",
+            "emailDomains": [
+                "edra.ai"
+            ],
+            "id": "Edra.ai",
+            "investorSlugs": [
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Sequoia Capital"
+            ],
+            "jobSources": [
+                {
+                    "id": "ashbyhq",
+                    "label": "Ashby",
+                    "value": "ashbyhq",
+                    "count": 21
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/2f17f20723b835157225e0fd624f5bf6_224_160?Expires=1861920000&Signature=WkgZ23gPGo6BhVwB7Pht3kAOd5lyRdRUGJht6f5ic~tkxg56~CbqtZrihiHTK7VAbZxuFfbqNgvvk3oh3vdyvvsNMLWj4Dm7G6galv2Mau79awYAP97c-dKjcv9CAacz65ZxOX-M2AEUery~a~wibtEVGJMsUoKl9ISbeLen2KxEzl254~geIWmK7L62QHFBBzU94fWdGYoJVM56-RU-P1d8er-keuizZYZe2MnDTSQSGiyo50zjLBXT0D03XmUKA3fKIM3IIl-vqo9p5J0dmoVqZcrfIpPC-3VF3dlNgV-LnCnhKKtsApLZyf45SZNSwVXe2Y3MCmVL373DVdp-Vg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 224
+                }
+            },
+            "markets": [
+                "AI",
+                "Enterprise Software",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "AI",
+                    "label": "AI",
+                    "value": "AI"
+                },
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [],
+            "officeLocationsLV": [],
+            "skills": [],
+            "skillsLV": [],
+            "name": "Edra",
+            "numJobs": 21,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "sequoia-capital"
+            ],
+            "parents": [
+                "Sequoia Capital"
+            ],
+            "slug": "edra.ai",
+            "stages": [
+                "Series A"
+            ],
+            "stagesLV": [
+                {
+                    "id": "Series A",
+                    "label": "Series A",
+                    "value": "Series A"
+                }
+            ],
+            "fundingLV": {
+                "id": "Series A",
+                "label": "Series A",
+                "value": "Series A"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://edra.ai/",
+                "label": "edra.ai"
+            }
+        },
+        {
+            "description": "Pre-litigation so good it runs itself.\n\nFinch combines elite paralegal with AI agents, empowering personal injury firms to resolve cases faster, grow capacity, and serve more clients.\n\nBacked by Alfred Lin at Sequoia and world class operators including Tony Xu (CEO of Doordash), Jason Boehmig (CEO of Ironclad), Christopher Payne (Board Member for Robinhood, Faire, Him&Hers) and others.\n\nFinch is built by PI leaders from Morgan & Morgan and cutting-edge AI talent from Google, Stanford and other top tech companies.\n\nFirms are growing 40% month over month with Finch. Book your demo at https://calendly.com/finchlegal/demo.",
+            "domain": "finchlegal.com",
+            "emailDomains": [
+                "finchlegal.com"
+            ],
+            "id": "Finch Legal",
+            "investorSlugs": [
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Sequoia Capital"
+            ],
+            "jobSources": [
+                {
+                    "id": "ashbyhq",
+                    "label": "Ashby",
+                    "value": "ashbyhq",
+                    "count": 20
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/7d53e2b5743321d221ff3d725e00eea7_208_160?Expires=1861920000&Signature=jpYQd4h1Ho5uDASKiWK7Rzi-sVsDDEWbPOelC3rNeYYYCY9OSHfxBXq7rJFmV5WcNibPBA67p4RQ46-rUYr17WlBfOjYM1-RNsgmYhKXrI9lMstzKQSAQ2TR-8NKtJAmrovRn0ZR1csQyz5kj-lfWYoXS3uFpWHKG3jMRKJVS6nueLJI8~DczAeaa7sbXRvZOuxFgPByoR8YfHHOsISbIOLgohdmliBr0U8b8EL7GE7GXPvvGYiJa9dRneLLIJgfqvfNB9Wo~hjbIxyVfYMy9AdmDhPdHCGohW-QFsCCM99M1N~Bo28sUSFoOlECsDbK2bH5Jd05L5Z~8j5YoNT53g__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 208
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/c6e5d4058ed9cd1de8a13be7fca90f58_100_100?Expires=1893456000&Signature=B2hcyWhSoJlUp98~y8zAQqsEqFjEFQ-hx~fpzZSpuNPfCrvzrg6gsnIEnilVQNtF6bw9MOGBIe2tcuWfvCb8Vf0rexFhLqRV2YXhkP7PnP3xx4ci3Y1AZd6hhX~Z5TW-ZYv1ogOmFP6cUW1YJwn9tm92TnZV2Sw61JX4z2GIMlaDes0uU1AZvj6Ew5odHlv9I8cj-MdoaYeAs7MCoPKxZdRh-phAkn~3DLspHmbQpFuaMrHSVjv-6ay7Lld5X5fyDnHWzB9ms3H8ck5toK~-P0uUZzGPY59D~P2Jten5n4ReZovvtZsFP3Zv633kz0raXGrmdisB7t88PJVygX7DYg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "AI/ML",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "AI/ML",
+                    "label": "AI/ML",
+                    "value": "AI/ML"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "New York, New York"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "New York, New York",
+                    "label": "New York, New York",
+                    "value": "New York, New York"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 51,
+            "name": "Finch",
+            "numJobs": 20,
+            "numRemoteJobs": 8,
+            "fractionRemote": 0.4,
+            "numInternships": 0,
+            "numManagerJobs": 2,
+            "parentSlugs": [
+                "sequoia-capital"
+            ],
+            "parents": [
+                "Sequoia Capital"
+            ],
+            "slug": "finch-legal",
+            "stages": [
+                "10-100 employees",
+                "Series A"
+            ],
+            "stagesLV": [
+                {
+                    "id": "10-100 employees",
+                    "label": "10-100 employees",
+                    "value": "10-100 employees"
+                },
+                {
+                    "id": "Series A",
+                    "label": "Series A",
+                    "value": "Series A"
+                }
+            ],
+            "fundingLV": {
+                "id": "Series A",
+                "label": "Series A",
+                "value": "Series A"
+            },
+            "sizeLV": {
+                "id": "10-100 employees",
+                "label": "10-100 employees",
+                "value": "10-100 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": true,
+            "website": {
+                "url": "https://finchlegal.com/",
+                "label": "finchlegal.com"
+            }
+        },
+        {
+            "description": "Anrok is the modern sales tax solution for SaaS businesses. With Anrok, finance leaders can easily monitor, calculate, and remit tax across any financial stack. \n\nWe're hiring! Help the internet economy to sell across borders and grow with confidence. Connect with us at jobs@anrok.com.",
+            "domain": "anrok.com",
+            "emailDomains": [
+                "anrok.com"
+            ],
+            "id": "Anrok",
+            "investorSlugs": [
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Sequoia Capital"
+            ],
+            "jobSources": [
+                {
+                    "id": "ashbyhq",
+                    "label": "Ashby",
+                    "value": "ashbyhq",
+                    "count": 19
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/5d72eefd36ceabd095d3b6d0a4287463_176_160?Expires=1861920000&Signature=AMDFs6fQ2yBpvVmxI8asEI6bLuUc1hu04l842utpnlr600jePt7M4pLc2ljfwMMCBG-Uy7Ji5R9UWopQ0kcLHWVwb-F2NHeMGCjzw~Cq17aVUHtkdo~5VTcdCC8fp1tXuoj-qmL6km8AfuNhyW~AIjh-ariNq32kmi2Cyz-LmTjv73OXTlJd0bRXZH1cWj4m~ktyvLgJC41wDQxK6dVXhiclpKsYjjhkiHLFVyQG0hyGOnDQiCax0KCLtEZUfhV5LjHOisVHkbDFJi8BrFncmJgacAH88KXTZdYLR~7cgYxQFZMk-qIg1IrEEjWs6ivIM~aHkuOps9VWAZmYxYLPkQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 176
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/3882456a056f8434c356fc63f036430c_100_100?Expires=1893456000&Signature=EFGCcd~r4yrvtBNkjTE23NMi9N3L135WH~wPxe4bp4tohufApVwgZbg6GwTiFw~luZswdh~uzd3SpM~RUmWQFZP~o8DOZBKlMICdQqtUYBta0UNOc~ugKQVgnm1CFnjozQE~psgvqMRiXZCKLVgxYNccYPmVo0-NtpvWXG6QRtyKb-3SPaywryj~f7KuQFML7VH5sIGOQZlSqvItegeQlcwXq5PUtCroWg0msD8Rbr1QE-lCZ~srl59MViWjp4J1rbf7MreAEZacjjA7eqRwoG0eoK9XpCnQkn4Hk7NJEieS2Rkej9JkA2LjsREdMclLd804j-t7knRxfnXszuXxtQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Enterprise Software",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "San Francisco Bay Area"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "San Francisco Bay Area",
+                    "label": "San Francisco Bay Area",
+                    "value": "San Francisco Bay Area"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 157,
+            "name": "Anrok",
+            "numJobs": 19,
+            "numRemoteJobs": 5,
+            "fractionRemote": 0.2631578947368421,
+            "numInternships": 0,
+            "numManagerJobs": 6,
+            "parentSlugs": [
+                "sequoia-capital",
+                "remotely"
+            ],
+            "parents": [
+                "Sequoia Capital",
+                "Remotely"
+            ],
+            "slug": "anrok",
+            "stages": [
+                "100-1000 employees",
+                "Series A"
+            ],
+            "stagesLV": [
+                {
+                    "id": "100-1000 employees",
+                    "label": "100-1000 employees",
+                    "value": "100-1000 employees"
+                },
+                {
+                    "id": "Series A",
+                    "label": "Series A",
+                    "value": "Series A"
+                }
+            ],
+            "fundingLV": {
+                "id": "Series A",
+                "label": "Series A",
+                "value": "Series A"
+            },
+            "sizeLV": {
+                "id": "100-1000 employees",
+                "label": "100-1000 employees",
+                "value": "100-1000 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": true,
+            "website": {
+                "url": "https://anrok.com/",
+                "label": "anrok.com"
+            }
+        },
+        {
+            "description": "Tavus is a research lab pioneering human computing. \n\nWe’re building AI humans: a new interface that closes the gap between us and machines, free from the friction of today’s systems. Our real-time human simulation models let machines see, hear, respond, and even look real, enabling meaningful face-to-face conversations with people. \n\nAI Humans connect and act with precision and empathy, making them capable, trusted agents. It’s the best of both worlds: the emotional intelligence of humans, with the reach and reliability of machines. They’re available 24/7, in every language, on our terms. \n\nImagine a therapist that anyone can afford. A personal trainer that adapts to your schedule. A fleet of medical assistants that can give every patient the attention they need.\n\nTavus: teaching machines how to be human. \n",
+            "domain": "tavus.io",
+            "emailDomains": [
+                "tavus.io"
+            ],
+            "id": "Tavus",
+            "investorSlugs": [
+                "gtmfund",
+                "high-alpha",
+                "mantis",
+                "sequoia-capital"
+            ],
+            "investors": [
+                "GTMfund",
+                "High Alpha",
+                "Mantis",
+                "Sequoia Capital"
+            ],
+            "jobSources": [
+                {
+                    "id": "ashbyhq",
+                    "label": "Ashby",
+                    "value": "ashbyhq",
+                    "count": 15
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/3224115563cc3a5173b45eadb7c46977_208_160?Expires=1861920000&Signature=V3dv0aydLMeR~4P2PfevhJG-vin7XOX8S8~C-BJ1t8202FnEMKuBZERfmcxgT3Uf4gXNmkfYkA9-5RrISFQwxLzjZVVPh-ApLuRq38t28UPepl6r7IMwwCLpxynCt1K5ULNM9ByL5vAht5vPNJRlF~ORKF9FLrK31o95q2uB-AXBp85u~ClmV2RT6jgt3If8Gh6y39-7jITp2SFl2MAMLj-mSD6EA~wzLwyTTldu~jYgVteBLTc42MndPXqMd3umxdlDCJzegi16Vl4RscCNzvd1CNDMPkbi0Z~zS5FuPkRvSas9S676ghjQFsb1IEdMZNoQOMV1D9076X6DWampOQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 208
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/fb03ba4ad9e57b36fe4ddbbb8101d993_100_100?Expires=1893456000&Signature=QR2twxbzsywQWRkEOVU1x4uqQ~eM79I6qI7vZMRqLOd0RdUcX0m5cpyWnppYddHtSvnA~EYzWKbND3UnjTyxpsgIIIhLIfK96qi8n59mzQa2HvSEBHmvwBi9Ss9U0cXYpGLBaZvgpxN6vBkVKuzkJaClQGEwA3rfF1i40vMI5j5EQGa8FnHoLqCAzV4ZZUZd9129~anbpPy1bE8Rv2zO6MP4O0VdL1NajSluK78Q6IjfalP~eTXR1Vno8hDdUJcZzNAukj1~0SyhtzR1Dh2xZGhuwTRfBz-eMtyVSUmdO~9LMS1O6zakPCkP2xIeBt14P-t-C9GNnMJhyO8xQtsU9g__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Enterprise Software",
+                "Marketing and Advertising",
+                "SaaS",
+                "SaaS Business App"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "Marketing and Advertising",
+                    "label": "Marketing and Advertising",
+                    "value": "Marketing and Advertising"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                },
+                {
+                    "id": "SaaS Business App",
+                    "label": "SaaS Business App",
+                    "value": "SaaS Business App"
+                }
+            ],
+            "officeLocations": [
+                "San Francisco, California",
+                "New York, New York"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "San Francisco, California",
+                    "label": "San Francisco, California",
+                    "value": "San Francisco, California"
+                },
+                {
+                    "id": "New York, New York",
+                    "label": "New York, New York",
+                    "value": "New York, New York"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 68,
+            "name": "Tavus",
+            "numJobs": 15,
+            "numRemoteJobs": 3,
+            "fractionRemote": 0.2,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "gtmfund",
+                "high-alpha",
+                "mantis",
+                "sequoia-capital",
+                "remotely"
+            ],
+            "parents": [
+                "GTMfund",
+                "High Alpha",
+                "Mantis",
+                "Sequoia Capital",
+                "Remotely"
+            ],
+            "slug": "tavus",
+            "stages": [
+                "10-100 employees",
+                "Seed funded"
+            ],
+            "stagesLV": [
+                {
+                    "id": "10-100 employees",
+                    "label": "10-100 employees",
+                    "value": "10-100 employees"
+                },
+                {
+                    "id": "Seed funded",
+                    "label": "Seed",
+                    "value": "Seed funded"
+                }
+            ],
+            "fundingLV": {
+                "id": "Seed funded",
+                "label": "Seed",
+                "value": "Seed funded"
+            },
+            "sizeLV": {
+                "id": "10-100 employees",
+                "label": "10-100 employees",
+                "value": "10-100 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": true,
+            "website": {
+                "url": "https://tavus.io/",
+                "label": "tavus.io"
+            }
+        },
+        {
+            "description": "BigPanda is the only Event Correlation and Automation platform built for domain-agnostic AIOps. We transform how IT teams prevent outages and resolve incidents by turning data into insights and action. Without BigPanda, IT Ops and DevOps teams struggle with manual and reactive incident response capabilities that are badly suited for the scale, complexity and velocity of modern IT environments. This results in painful outages, unhappy customers, growing IT headcount and the inability to focus on innovation.\n\nFortune 500 enterprises such as Intel, Cisco, United, Nike, Marriott and Expedia rely on BigPanda to prevent outages, reduce costs, and give their teams time back for digital transformation. BigPanda helps organizations take a giant step towards Autonomous IT Operations by turning IT noise into insights and manual tasks into automated actions. BigPanda is backed by top-tier investors including Sequoia Capital, Mayfield, Battery Ventures, Greenfield Partners and Insight Partners. Visit www.bigpanda.io for more information.",
+            "domain": "bigpanda.io",
+            "emailDomains": [
+                "bigpanda.io"
+            ],
+            "id": "BigPanda",
+            "investorSlugs": [
+                "advent-international",
+                "battery-ventures",
+                "sequoia-capital",
+                "techaviv"
+            ],
+            "investors": [
+                "Advent International",
+                "Battery Ventures",
+                "Sequoia Capital",
+                "TechAviv"
+            ],
+            "jobSources": [
+                {
+                    "id": "gem",
+                    "label": "Gem",
+                    "value": "gem",
+                    "count": 11
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/379a2d633ca42e464b33e9fb7676ec48_288_160?Expires=1861920000&Signature=lwSqcN9QQMuxHrM53UKktEJy3sYioHgxbMl41-H4pIbH~LCrfo4gxcIjolPTBeJw54meomIOwGUMU22ic3V1CbqZVo5TRA0ovvxZWZfnnnSaNzzE1dSalkB~U0hMWyN~7zIHgMl-tMBSHyrRgVtUIRWbQ1DO59Se4AIobJC9ut73Wow6T3YGwPbJmVw53EHPj8Fjr~avqP-K1190v5smthiHBLwBjWdnd7P6XOyn1PeuNOiJX4br0D~IWcqCD6HfQeFNz1QhGLJIvraKbTIwRR4ewbxTYdrLas0DcuPBbKOhBTGuS99OcNyd-1o7mAgzREjo7nzTRnvx7HZXgLnbVw__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 288
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/cf30b9916f802b5cecf5b2b7479e1e87_100_100?Expires=1893456000&Signature=FB05hBFnajKrBFS2rQ8DIVpKu8J8FeQnHRN0AIsMO8ttsfEwNDMdjjgxYTLTyTqYAq-lZoSg21gilo1c3lPa4EB0sCUg2gZe4hwisc6JLMBZgIloASL8Z48mO3UjyJcduINrJfIs4bwGDTJTVvzX7sreKSnQYXAlscYqSLJ2m5CRHH6Sy6UR18x1gvgfqISRQYGIYCi1k72THw3I5LmKhT1~PxINKEpzt6ScaWI0cWipxnEG~uUcfKXinZ~w~F3mRbFjPdaXAFNomYGeA82GRSU6F3JLvdpgKml~l4tyeCG7ZfLzE54i~k2xSSDYeZIGvyKjMUb6crA-rSfEZ3QTbg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Enterprise Software",
+                "IT and Services",
+                "Productivity",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "IT and Services",
+                    "label": "IT and Services",
+                    "value": "IT and Services"
+                },
+                {
+                    "id": "Productivity",
+                    "label": "Productivity",
+                    "value": "Productivity"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "Mountain View, California",
+                "Tel Aviv Area, Israel"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "Mountain View, California",
+                    "label": "Mountain View, California",
+                    "value": "Mountain View, California"
+                },
+                {
+                    "id": "Tel Aviv Area, Israel",
+                    "label": "Tel Aviv Area, Israel",
+                    "value": "Tel Aviv Area, Israel"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 333,
+            "name": "BigPanda",
+            "numJobs": 11,
+            "numRemoteJobs": 6,
+            "fractionRemote": 0.5454545454545454,
+            "numInternships": 0,
+            "numManagerJobs": 2,
+            "parentSlugs": [
+                "advent-international",
+                "battery-ventures",
+                "sequoia-capital",
+                "techaviv"
+            ],
+            "parents": [
+                "Advent International",
+                "Battery Ventures",
+                "Sequoia Capital",
+                "TechAviv"
+            ],
+            "slug": "bigpanda",
+            "stages": [
+                "100-1000 employees",
+                "Growth"
+            ],
+            "stagesLV": [
+                {
+                    "id": "100-1000 employees",
+                    "label": "100-1000 employees",
+                    "value": "100-1000 employees"
+                },
+                {
+                    "id": "Growth",
+                    "label": "Growth",
+                    "value": "Growth"
+                }
+            ],
+            "fundingLV": {
+                "id": "Growth",
+                "label": "Growth",
+                "value": "Growth"
+            },
+            "sizeLV": {
+                "id": "100-1000 employees",
+                "label": "100-1000 employees",
+                "value": "100-1000 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": true,
+            "website": {
+                "url": "https://bigpanda.io/",
+                "label": "bigpanda.io"
+            }
+        },
+        {
+            "description": "Today companies spend over $1T to bring customers to the door, but $19 of every $20 they spend does not convert to revenue. Companies have no choice other than to dedicate large engineering and data science teams to manually build more relevant, higher converting experiences for different customer segments. \n\nMutiny is a no-code AI platform that helps marketers convert their top of funnel demand into revenue, without engineers. Mutiny gives marketers everything they need to drive revenue and prove it — from data and analytics to AI-powered recommendations and content writing. We are backed by Sequoia Capital, YCombinator and CMOs from some of today's fastest-growing tech companies including AngelList, Carta, Gong, Hopin, Salesforce and Snowflake.",
+            "domain": "mutinyhq.com",
+            "emailDomains": [
+                "mutinyhq.com"
+            ],
+            "id": "Mutiny",
+            "investorSlugs": [
+                "gaingels",
+                "gtmfund",
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Gaingels",
+                "GTMfund",
+                "Sequoia Capital"
+            ],
+            "jobSources": [
+                {
+                    "id": "ashbyhq",
+                    "label": "Ashby",
+                    "value": "ashbyhq",
+                    "count": 9
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/022fbb27b49cbc9a17951b91b19e1836_192_160?Expires=1861920000&Signature=HSDN8DsfwuRj43GftSDwIXbRfe7hGSA6D0MLZrdRRjvvORd6aKY~d1Ssapx3hTCnQzIbojRx~YuFv4uNmzyEF3i3W4pnlZAH5B24ymdYFEb0K0p9C0sEy9sxlmpLPA0o7F0bhnpuNXJ60PB1ViUKy09HM9IHkDBTdgx4X3vFLXnRQJK4xXZ-rVDX8AthjNsZdT9o0M9Zte8YRlsLcnoKIjAmgektXZOkKPl3r8aOtzr0YbsuIElknPGAuBnsqIMR8Su6Oho6KxYwQ9TMhCpGEW3rEYYe0XJpDQ~z1UekSO6Psni2UoSMqs-K0nBeyBASzqwTOWVX3BtstDWR0nMLJw__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 192
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/b9718cfc9a5035b1e2e3dab47ccf4001_100_100?Expires=1893456000&Signature=lHNl0T1NKIgggJoXia-~0vTeBy7nehXPUeiytqVdnSnbziKbNuBZu17JoHK39DrqRAMxC7CH~S-qxg32YlA5l3jZI12W54HDhBs~dr6-ZPavijb0y3tnpZI-YxEPo59iLG4RERjDlCMEWFEBm3kCK~pT8bN9J0yUW~BK4dCJoDunxFH6Cl3U~xpqZbZGZrnaxziDbv4HxzTN~1xyJnzCAlc4OKMBfR1i~1XZbSh4MYyL~p5NY2aeqHRVembuzheNsyyKS2qbM92VOIz~xPewJjS5M3wDpa0m5xiOG0inCr7WDcZoDYYZCsSyqIkBw0L5e0C~6k3N-2SHe80mb2-WHg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "San Francisco, California"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "San Francisco, California",
+                    "label": "San Francisco, California",
+                    "value": "San Francisco, California"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 48,
+            "name": "Mutiny",
+            "numJobs": 9,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 3,
+            "parentSlugs": [
+                "gaingels",
+                "gtmfund",
+                "sequoia-capital"
+            ],
+            "parents": [
+                "Gaingels",
+                "GTMfund",
+                "Sequoia Capital"
+            ],
+            "slug": "mutiny",
+            "stages": [
+                "10-100 employees",
+                "Growth"
+            ],
+            "stagesLV": [
+                {
+                    "id": "10-100 employees",
+                    "label": "10-100 employees",
+                    "value": "10-100 employees"
+                },
+                {
+                    "id": "Growth",
+                    "label": "Growth",
+                    "value": "Growth"
+                }
+            ],
+            "fundingLV": {
+                "id": "Growth",
+                "label": "Growth",
+                "value": "Growth"
+            },
+            "sizeLV": {
+                "id": "10-100 employees",
+                "label": "10-100 employees",
+                "value": "10-100 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://mutinyhq.com/",
+                "label": "mutinyhq.com"
+            }
+        },
+        {
+            "description": "WireScreen.ai is a venture-backed startup with a mission to help global businesses make smarter investment decisions, track their supply chains, monitor cross-border transactions, and respond to evolving global risks. Our leadership team includes a Pulitzer Prize winner and a senior engineer who has worked at Google and Twitter. We are building the world’s leading global supply chain platform, and our AI-driven data platform is already the industry leader in tracking Chinese businesses and entrepreneurs.\n   We have built a sophisticated software platform that is mapping business relationships throughout the world. Beginning with China, we are documenting who owns and ultimately controls a company or financial institution. We also provide insights into a company’s affiliates and joint venture partners. Using our platform, customers can search more than 10 million company profiles to gain insights into the operations of global brands and the portfolios of some of the world’s biggest investment firms.",
+            "domain": "wirescreen.ai",
+            "emailDomains": [
+                "wirescreen.ai"
+            ],
+            "id": "WireScreen",
+            "investorSlugs": [
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Sequoia Capital"
+            ],
+            "jobSources": [
+                {
+                    "id": "ashbyhq",
+                    "label": "Ashby",
+                    "value": "ashbyhq",
+                    "count": 8
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/0f89f66f463674df801930b7e1b20b70_272_160?Expires=1861920000&Signature=LpO4-mptEMDGPNiiEsBdn7oYnwkjHqDz2oQpqpBicsAXYhKRLxeO4tuuIq5WZPYfzyN0PGyQol~8ujOqpURGNWYoRROrz3bMxkYSoK~tD73TZcVH4-C2h8Iw2jguKpzHYAokAcWNFgx7wWV7JIRZQ3qzCTl~SlWHR7RuPWqoB7Z0Qe0pQ-6cPNqOeuZIHtMOBydEq27fVFmtJJ3bLeFlY6dEZJPXfI0v3k~GyZ0DEzbm4RS~qHmWq7ZSC7jwIb6IcdCAuZUiyehU4wn1JD96ge1d5Rcms2xLQblJac0KPRDr72yIwE4kjop9E7ZMpVwTSTbAikqFCtH6X6XnsW~lIw__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 272
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/5829ec6c09353e004bc56be31c921b95_100_100?Expires=1893456000&Signature=JKUgcZlC1WM0GVIOlom-N6rQUvpnJgajVO7ul8-1Y6L5PzbQ~RPX2L-YJy0h6BcTf8mtCiBGOToUfgLwlbjW93i8B2AkwifB2XCAU7~9~W3LbB4wHqD2928T78YOm4yoB0soXSGAoGRqhdsG9ZxqfT6Yy7Sm33NwGzM1Eg-oX1BWjL5BtT7U-eE2L-o1CUnx5x9wbl~tWRN9kZu0a65z31TaCRoxHTOyiLK1WTzXIIwRS5MUd-6HTwMnBBY8Saa9epkmpkxUntIcStPofiudCVsj4PZnE8uxZ4qgRQBLkNRpLudGkuPzYieBidjB37x4U0bOIrWLYyKJSLJUccYGAw__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Enterprise Software",
+                "Logistics and Supply Chain",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "Logistics and Supply Chain",
+                    "label": "Logistics and Supply Chain",
+                    "value": "Logistics and Supply Chain"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "New York, New York"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "New York, New York",
+                    "label": "New York, New York",
+                    "value": "New York, New York"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 30,
+            "name": "WireScreen",
+            "numJobs": 8,
+            "numRemoteJobs": 3,
+            "fractionRemote": 0.375,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "sequoia-capital",
+                "remotely"
+            ],
+            "parents": [
+                "Sequoia Capital",
+                "Remotely"
+            ],
+            "slug": "wirescreen",
+            "stages": [
+                "10-100 employees",
+                "Series A"
+            ],
+            "stagesLV": [
+                {
+                    "id": "10-100 employees",
+                    "label": "10-100 employees",
+                    "value": "10-100 employees"
+                },
+                {
+                    "id": "Series A",
+                    "label": "Series A",
+                    "value": "Series A"
+                }
+            ],
+            "fundingLV": {
+                "id": "Series A",
+                "label": "Series A",
+                "value": "Series A"
+            },
+            "sizeLV": {
+                "id": "10-100 employees",
+                "label": "10-100 employees",
+                "value": "10-100 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": true,
+            "website": {
+                "url": "https://wirescreen.ai/",
+                "label": "wirescreen.ai"
+            }
+        },
+        {
+            "description": "Pilot’s leading team of US-based experts, supported by elegant software, delivers world-class bookkeeping, tax, and CFO services trusted by growing businesses like yours. Let Pilot focus on your financials, so you can focus on your business.",
+            "domain": "pilot.com",
+            "emailDomains": [
+                "pilot.com"
+            ],
+            "id": "Pilot com",
+            "investorSlugs": [
+                "mit-alumni-startups",
+                "sequoia-capital",
+                "south-park-commons"
+            ],
+            "investors": [
+                "MIT Alumni Startups",
+                "Sequoia Capital",
+                "South Park Commons"
+            ],
+            "jobSources": [
+                {
+                    "id": "greenhouse",
+                    "label": "Greenhouse",
+                    "value": "greenhouse",
+                    "count": 8
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/489abfe43a6095d63b1337d115413f59_128_160?Expires=1861920000&Signature=dkYsIl4nZNgjzbc3lZdnOb9JApShvEpBT3kUJDfM2EGOR-gj04cshBe24ZqkNUXai1pTSULmtVVOJ1EyeMTJ-veQNmCvwZPhmFf-xuZUIrQ9Ksa-C86xG4pJJ7ckXslkC-bE4gpB3hNRLTcO7fdFG-2g~fyhbstlQCyrekiRT6PEB-AO2l1z5I1V~xKbEfX-t-ywNP737-Kmya3DsX1FGE1VGeG65kDTvBCIOAcPWu69N14kAhnv08L4Obuu1GejRid9glXvOli41SRQg-z8Su3vC5zyeCHiJF4JKrUvIaJwU20Y3kazSPb5rvZA3xHKSBHQopc2t849Z2kZix4vpw__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 128
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/7b677de351954ee8c853ef8dcd1a1100_100_100?Expires=1893456000&Signature=KUZCwfwNpkNtFK5xYHmeHt8ByL-EVNJbZIOAtbtA8RwGR6aFCMIkgd5uSxIhHALLv3nnaXMi-n8oOZZKcouTxrPUSbY7qzAqkpu6CaMZU1tahQ7JKjXOFXOfGXb0RJuf2Y0b4c06b~tNd-6N19lN-oPXK2vbQa0uOcaEopXVmRATwXR7BCd3sCIWrRGICpQJzyKOQVOYWKoM4G4P4DC8u7tRlLKPbRoK-Ga5GAY8NKeTUHLMuSGk0BcM2ERxkr4W0cbogiSAHmBwa4UmP7iexqooR5HGOhTGLT6sFRZ2CYBtbuibMiOemOpnHjzpwMAIghWxjD~7FMp2YTYlIaZdGA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Fintech",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Fintech",
+                    "label": "FinTech",
+                    "value": "Fintech"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "San Francisco, California",
+                "Nashville, Tennessee"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "San Francisco, California",
+                    "label": "San Francisco, California",
+                    "value": "San Francisco, California"
+                },
+                {
+                    "id": "Nashville, Tennessee",
+                    "label": "Nashville, Tennessee",
+                    "value": "Nashville, Tennessee"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 425,
+            "name": "Pilot",
+            "numJobs": 8,
+            "numRemoteJobs": 1,
+            "fractionRemote": 0.125,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "ec",
+                "mit-alumni-startups",
+                "sequoia-capital",
+                "south-park-commons",
+                "remotely"
+            ],
+            "parents": [
+                "EC",
+                "MIT Alumni Startups",
+                "Sequoia Capital",
+                "South Park Commons",
+                "Remotely"
+            ],
+            "slug": "pilot-com",
+            "stages": [
+                "100-1000 employees",
+                "Growth"
+            ],
+            "stagesLV": [
+                {
+                    "id": "100-1000 employees",
+                    "label": "100-1000 employees",
+                    "value": "100-1000 employees"
+                },
+                {
+                    "id": "Growth",
+                    "label": "Growth",
+                    "value": "Growth"
+                }
+            ],
+            "fundingLV": {
+                "id": "Growth",
+                "label": "Growth",
+                "value": "Growth"
+            },
+            "sizeLV": {
+                "id": "100-1000 employees",
+                "label": "100-1000 employees",
+                "value": "100-1000 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://pilot.com/",
+                "label": "pilot.com"
+            }
+        },
+        {
+            "description": "Lilt powers the global experience across every step of the customer journey.\n\nWe bring human-powered, technology-assisted translations to global enterprises.  We give organizations everything they need to scale their translation programs, go-to-market faster than ever, and improve the global customer experience.\n\nLilt’s translation services are powered by our translation technology, which improves translator speeds by 3-5x and reduces localization costs by 50% or more.\n\nWe're based in San Francisco with global offices in Berlin, Dublin, Indianapolis, Washington, D.C., and London, and are backed by Intel Capital, Sequoia, Redpoint, Zetta, and XSeed.",
+            "domain": "lilt.com",
+            "emailDomains": [
+                "lilt.com"
+            ],
+            "id": "Lilt",
+            "investorSlugs": [
+                "sequoia-capital",
+                "sorenson-capital",
+                "zetta-venture-partners"
+            ],
+            "investors": [
+                "Sequoia Capital",
+                "Sorenson Capital",
+                "Zetta Venture Partners"
+            ],
+            "jobSources": [
+                {
+                    "id": "ashbyhq",
+                    "label": "Ashby",
+                    "value": "ashbyhq",
+                    "count": 7
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/db8ab2a98dcaadd116bb5548310ca1e0_184_160?Expires=1861920000&Signature=CpyTquTcaTMvU322nE3Do4IZENaGfRW813hKOuykxoZvlhZcX07NM8D3z3XBYeZnbMgf0uyIDU0FTyoJSiR89-GMumPnLIFHYUVSyyIgypalHuKc1w8Lj0jyLsJQCNWLxpeeBmqhXyaMdhzWWCJ887XQjhaPtZuSvGOpmzaNngPgyymS244A6kRbhHzJsqw67zOrdxa2qf8ws7aA9hBxs0GeL9V9Umc3QDIadQ58UNXdBaSeCuf9kQTjlCuNBpClYPSFIAnoweJmztL1ppYhLrF7XSnN07qnuBaE-GR5A9bUx4Ae2nqFO-XtGfE3hIgx1k0GFEVAtqcD71p-zEh5YQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 184
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/3202b4276a71ad3b0482e8395ece9d96_100_100?Expires=1893456000&Signature=V65qwDs0N2QMpJ0QwMScx6rqzXRV1tnIEYxHJZYfKQXuxnI8rkQoqImuAsoGNDWBOgfUBqgM~qYGjiR3DTr4nAb4KKBjQyRicah7xOv5GEAeJ4x4vmmR-JJ1mxa4qjpOQmgbPEewlGrAGn~5Q70aRPDE9dICftrEwglRm6rPOjn1Eqxj6nLV~ZIhbU80637gP6HIKuTBZNGND7TTF4PzFPH0x9p6MCBPovw5L5jDKEJx8LbBaJieConC5lxI-vtX9Fk0TEIcYCIlWOYx5IhZGBK6gaOEhYeUNxyfmE4H5xb45h~X6ibnRFQxIsRMW4SzmCI69NAvXI4JpOmcBKlY~g__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "London",
+                "Washington, DC",
+                "Indianapolis, Indiana Area",
+                "San Francisco, California",
+                "Berlin, Germany"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "London, Greater London, United Kingdom",
+                    "label": "London",
+                    "value": "London, Greater London, United Kingdom"
+                },
+                {
+                    "id": "Washington, District Of Columbia",
+                    "label": "Washington, DC",
+                    "value": "Washington, District Of Columbia"
+                },
+                {
+                    "id": "Indianapolis, Indiana Area",
+                    "label": "Indianapolis, Indiana Area",
+                    "value": "Indianapolis, Indiana Area"
+                },
+                {
+                    "id": "San Francisco, California",
+                    "label": "San Francisco, California",
+                    "value": "San Francisco, California"
+                },
+                {
+                    "id": "Berlin, Berlin, Germany",
+                    "label": "Berlin, Germany",
+                    "value": "Berlin, Berlin, Germany"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 745,
+            "name": "Lilt",
+            "numJobs": 7,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 1,
+            "parentSlugs": [
+                "sequoia-capital",
+                "sorenson-capital",
+                "zetta-venture-partners",
+                "remotely"
+            ],
+            "parents": [
+                "Sequoia Capital",
+                "Sorenson Capital",
+                "Zetta Venture Partners",
+                "Remotely"
+            ],
+            "slug": "lilt",
+            "stages": [
+                "100-1000 employees",
+                "Growth"
+            ],
+            "stagesLV": [
+                {
+                    "id": "100-1000 employees",
+                    "label": "100-1000 employees",
+                    "value": "100-1000 employees"
+                },
+                {
+                    "id": "Growth",
+                    "label": "Growth",
+                    "value": "Growth"
+                }
+            ],
+            "fundingLV": {
+                "id": "Growth",
+                "label": "Growth",
+                "value": "Growth"
+            },
+            "sizeLV": {
+                "id": "100-1000 employees",
+                "label": "100-1000 employees",
+                "value": "100-1000 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://lilt.com/",
+                "label": "lilt.com"
+            }
+        },
+        {
+            "description": "First, we built a data validation library that developers love. Next, we're building cloud services that developers will love.",
+            "domain": "pydantic.dev",
+            "emailDomains": [
+                "pydantic.dev"
+            ],
+            "id": "Pydantic",
+            "investorSlugs": [
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Sequoia Capital"
+            ],
+            "jobSources": [
+                {
+                    "id": "editorial",
+                    "label": "Editorial",
+                    "value": "editorial",
+                    "count": 1
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/a2314449fd38030af3e1b08a53c93b50_272_160?Expires=1861920000&Signature=DX6yuR0xXJ3CvuYF6ezOE8hkDUO7fgUt~xdPeGPP6C4mwynhtHrjdsG8jCbLwGMMzGIAmq11-VgLWfK9nLoaDUtV3VlqhS6IXWjkPbhXAEG4rLcBvZJ4UJsOtyKfIAMoTyAHOldAPdSn6g1cU85Ej4Wk6QTrmkBamiyvrChkaNYODa7RrBxvgi3fZ93NAJku0WDkj0EQBkdkD6P~GzO70138IVf6rhx2i7Z0NbLbCdT7LIoRE2zDe5MMk1NiOSEouD6hamzAB7SoqPoNyjT5pyTi~Oez4Nkp42J~ffevCUwLzpeiciz34C6VDzNlsrGVvEd3ODQG1DkH9LOWNql8CQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 272
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/772a46bcbc2568d8e067d856239591a6_100_100?Expires=1893456000&Signature=hyZymzo5Bb2VXjIgzJQ4R9hDh3iDuGcAeSwVWIsJbeneD10aYe3GucsNqU8zVAYjBnxn72sX386ScUw3fkshxCGhK1c~209eTL7MZHdbPxoa0wMu98O9BiUK7VRuQDn~aQUOX1ILR-M9Rm46A1fVBAfWdc3HlNH5ogBUbMVlTtJwPpNXTH8AaaOOANzVozjxKkavupDSshlJjJnrqvQqGp~iDHKDb7xVTtSIDEc2WrwVqQS3rSt1j3O7yE6diQWsYt~QII99FQDEEzFXEc~jlBPZp09YTUf3jZ6hJe5YE7unvrqKrAkTLIh1mENw8hmXNxTm6-il~FfjVJas7u71HQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Developer Tools",
+                "Enterprise Software",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Developer Tools",
+                    "label": "Developer Tools",
+                    "value": "Developer Tools"
+                },
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "California"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "California",
+                    "label": "California",
+                    "value": "California"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 31,
+            "name": "Pydantic",
+            "numJobs": 1,
+            "numRemoteJobs": 1,
+            "fractionRemote": 1,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "sequoia-capital"
+            ],
+            "parents": [
+                "Sequoia Capital"
+            ],
+            "slug": "pydantic",
+            "stages": [
+                "10-100 employees",
+                "Series A"
+            ],
+            "stagesLV": [
+                {
+                    "id": "10-100 employees",
+                    "label": "10-100 employees",
+                    "value": "10-100 employees"
+                },
+                {
+                    "id": "Series A",
+                    "label": "Series A",
+                    "value": "Series A"
+                }
+            ],
+            "fundingLV": {
+                "id": "Series A",
+                "label": "Series A",
+                "value": "Series A"
+            },
+            "sizeLV": {
+                "id": "10-100 employees",
+                "label": "10-100 employees",
+                "value": "10-100 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": true,
+            "website": {
+                "url": "https://pydantic.dev/",
+                "label": "pydantic.dev"
+            }
+        },
+        {
+            "description": "The all-in-one spend management platform.\n\nYokoy automates spend management for medium and large enterprises with artificial intelligence, combining expense management, supplier invoice management and smart corporate cards into one single intuitive platform.\n\nFounded in Switzerland in 2019 by experienced business professionals and scientists, Yokoy is the leading, all-in-one fintech platform that provides an AI-based full spend management suite for midsize and enterprise companies. By combining automation, API integrations and machine learning developed in Yokoy’s own cutting-edge research lab, the company offers expense management, supplier invoice management and smart corporate credit cards in a single intuitive tool. All underpinned by the most up-to-date security and stability.  Yokoy’s mission is to finally rid the corporate spending world of the legacy processes that have plagued it for decades and is backed by leading investors including New York-based Left Lane Capital and London-based Balderton Capital.\n\nhttps://www.yokoy.ai/en/imprint",
+            "domain": "yokoy.ai",
+            "emailDomains": [
+                "yokoy.ai"
+            ],
+            "id": "Yokoy",
+            "investorSlugs": [
+                "balderton-capital",
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Balderton Capital",
+                "Sequoia Capital"
+            ],
+            "jobSources": [],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/770809a28600a274f20d48f8c01f077b_192_160?Expires=1861920000&Signature=UX5tXJ668smo9yvX6cRQ6OmCnR-TWVcWU9tPNTXFJhr7eeVomknsQvCGKZFKR68DFlRX8v0v52ddjiudqJ6UJhUUYFpXkuSO6aIafIWKzqRQyopUnCMwWyTQMF4e5qU3Zxjsckltv55LRJ8JAnEwfMWrXCUyScEyDC2Bs0OwzGE1-SFSmHn6Mt9kiZr4Odas34EH6xSejBgAvw424jjAqRmwl2vknxU2yONYvFRAsDDkHRc5KWbGHw~UPO5cmpIdt3t2X19bZm2qZAfh5a4ed96O5En-pw3vqjtcAJWWmCBhqHXRqFLkZe77xNc8q1MEoXtNRwem-bVSA~Dq7vcc8g__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 192
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/fe41fd212ed48b18c062725a86d0ab9f_100_100?Expires=1893456000&Signature=bCx9Ljz2nJDQ3xFUdYDpyKOECqsuIlBhdGj3iCv2hmhKeIcEI-UxGnvQygaev6Z8oJ5aAbbEVHijRz0IF2joEksl8zVKZUgH7fJcwSDbIusqUbWGUAHmUFsujjBZVzUvVBZcVT2L-Zh-jV0RmjS1iA3hrVEsBd6q7c1ZReazKPUwdpqPZfRmW6I~UW4JoyO1OxPFm4cW89YE2HIa-i8Anv08DipmHmmj515Ym17ZryivppqWeB6Ez12loC0ijQFdbysKAyUe-FjAOF22dFd3fCZPDaVJmsXLoNEHghpASXNNYBAPrrzyxVr1FvdRHQh28ghiwaE068xEcx6LFIbJag__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Enterprise Software",
+                "Fintech",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "Fintech",
+                    "label": "FinTech",
+                    "value": "Fintech"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "Zürich"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "Zürich Area, Switzerland",
+                    "label": "Zürich",
+                    "value": "Zürich Area, Switzerland"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 103,
+            "name": "Yokoy",
+            "numJobs": 0,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "balderton-capital",
+                "sequoia-capital"
+            ],
+            "parents": [
+                "Balderton Capital",
+                "Sequoia Capital"
+            ],
+            "slug": "yokoy",
+            "stages": [
+                "100-1000 employees",
+                "Growth"
+            ],
+            "stagesLV": [
+                {
+                    "id": "100-1000 employees",
+                    "label": "100-1000 employees",
+                    "value": "100-1000 employees"
+                },
+                {
+                    "id": "Growth",
+                    "label": "Growth",
+                    "value": "Growth"
+                }
+            ],
+            "fundingLV": {
+                "id": "Growth",
+                "label": "Growth",
+                "value": "Growth"
+            },
+            "sizeLV": {
+                "id": "100-1000 employees",
+                "label": "100-1000 employees",
+                "value": "100-1000 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://yokoy.ai/",
+                "label": "yokoy.ai"
+            }
+        },
+        {
+            "description": "The Org is the world's biggest professional community for teams. We help organizations use transparency to get more exposure externally and operate more efficiently internally. The public org chart is just the beginning!",
+            "domain": "theorg.com",
+            "emailDomains": [
+                "theorg.com"
+            ],
+            "id": "The Org",
+            "investorSlugs": [
+                "balderton-capital",
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Balderton Capital",
+                "Sequoia Capital"
+            ],
+            "jobSources": [],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/d9cabd52f6579a51fff8e9ee60cf18fe_208_160?Expires=1861920000&Signature=djFTJV-4M8DK23T6hAXJ6wJCRMWuCaUYDmlZg18LHY5J1iHoixgi~FoIe9Prz2151NCXx1gunrjGbuvugvs1j2q8s-X0NGMmWKc4Gf9RXbL0ykbZ6WCOLH-f~4TtCcBRsnjfoYxdmzZpw1XF0H~~3wO3dOaVja-nFmLBmS2iVtAluAIXBGC9tGCfq2UfkgcvSPoNoiYWQTck~ipd1wuHb~jfJ7RGcgBt6mLmnI6VqEZACywXpAK~YbaJcMYTX-k4EiD85Xo4z~uqqbRg-abB-nyMngmLng7urUPa7AKr3k~AFEvk~eSfPTPEWe7Uyy6i1c91u3jbCW~A6KF12LOzqw__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 208
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/1feca149a64b8f714eeca5b563eae4d3_100_100?Expires=1893456000&Signature=LrtMkoxQkHjxFyiCEqkORop-nv8c7f4zxrql86SpRLUn6GfUQ23MEvtn1EvdSYEqJ8yPmxL9c6pUEV~1F2RQjHdnzR5E2B1jTQKdFUx59ygH3Xo1659tWGDUW1WQkg8nT1rsRwpHrdNx5L2UeZFcAnfDuu3TJ~DcYpaaxOzUQxakuXrw524w0jtVcplHmXOstikqa~afrqkAykGcmQiJvcGEBTk10aTzYfpX5YfLQ-XqKeKNfr2r7l8G55ldbpW--WKppYIL1wkjOKxMVdafBPLIPhIPiDZCpVbwG6kEFREpXwafdTsAPugsdROPNdFJbBRSfhHSPCCGfg3M4md0BQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "New York, New York",
+                "Copenhagen, Denmark"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "New York, New York",
+                    "label": "New York, New York",
+                    "value": "New York, New York"
+                },
+                {
+                    "id": "Copenhagen Area, Capital Region, Denmark",
+                    "label": "Copenhagen, Denmark",
+                    "value": "Copenhagen Area, Capital Region, Denmark"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 21,
+            "name": "The Org",
+            "numJobs": 0,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "balderton-capital",
+                "sequoia-capital"
+            ],
+            "parents": [
+                "Balderton Capital",
+                "Sequoia Capital"
+            ],
+            "slug": "the-org",
+            "stages": [
+                "10-100 employees",
+                "Growth"
+            ],
+            "stagesLV": [
+                {
+                    "id": "10-100 employees",
+                    "label": "10-100 employees",
+                    "value": "10-100 employees"
+                },
+                {
+                    "id": "Growth",
+                    "label": "Growth",
+                    "value": "Growth"
+                }
+            ],
+            "fundingLV": {
+                "id": "Growth",
+                "label": "Growth",
+                "value": "Growth"
+            },
+            "sizeLV": {
+                "id": "10-100 employees",
+                "label": "10-100 employees",
+                "value": "10-100 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://theorg.com/",
+                "label": "theorg.com"
+            }
+        },
+        {
+            "description": "Stainless helps you deliver world-class developer interfaces for your API. Generate robust and idiomatic SDKs in popular programming languages, token-efficient MCP servers, and SDK-native documentations that evolve with your OpenAPI spec.\n\nStainless is trusted by some of the most forward-thinking API teams in the world - including Anthropic, Cloudflare, Nvidia, OpenAI, and many more.",
+            "domain": "stainlessapi.com",
+            "emailDomains": [
+                "stainlessapi.com"
+            ],
+            "id": "Stainless",
+            "investorSlugs": [
+                "andreessen-horowitz",
+                "felicis",
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Andreessen Horowitz",
+                "Felicis",
+                "Sequoia Capital"
+            ],
+            "jobSources": [
+                {
+                    "id": "ashbyhq",
+                    "label": "Ashby",
+                    "value": "ashbyhq",
+                    "count": 0
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/3f0fc62a66818c8b384109f7eaa67818_240_160?Expires=1861920000&Signature=ck~M7yEVheIDl8l1s3M2gberEUTA4PUf~okdXhd9psgRaxiUSc285X1iapiUKGT1GgkZ35EB9X4eehZzBNv8x3LxRVKY45koD3JMDfaV0CwC331XdPwQBn5QLJQV05cDgGQ6UN3dvGalCPEOx6YS3KfLq5o~NscYKX1qtEPrZrQjmfRaLZownn8krgZdRvxQrSxsT-NpBssUR1Psk4YTdaHTYCbK4jzWimRrrlWX6pIvNYj6TOJQ4j3auAY8H1Rxl7njluLiWhXlxCzkM5MmhhkRD8GHwV4MrSc3ImgucpYlki1cDQGq9eriiXijkHd5rp4FG2-AwaRmq4V58FugHQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 240
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/4ec18f5671adc5955a472aa61fca83f9_100_100?Expires=1893456000&Signature=BtTXyjsepCCPIFxFqj1CbH2fSDa5xz-q~yz8vNN8DaT3ZyDZ79TeTNFPtFrEDK16-vtI59Ur85TC6hiagmVIMV1MG9aPHqEgs79V0ii0cQiIjKw3DMJ4qdFStxr-qWE6-X36ZO7lTyPyXYTiGsyeVgl1ScKxvNtaJMva-Vq9eGAqAlRbEGLOXAArf4I0CPfIm-bJz~7iRZSUlaqOt8rfXCUWZovifMWlKHXVtm4TftKKvhX61uFBq~ng3~RXHm9hIKBC4DoaXWOjeoW1l9zNjPEmQ1imIV33fJ2VQayEWVI0TsAfWnICNNrYERTvnw01fj3JYNJHC2IBqmo3~smroA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Developer Tools",
+                "Enterprise Software",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Developer Tools",
+                    "label": "Developer Tools",
+                    "value": "Developer Tools"
+                },
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "New York, New York"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "New York, New York",
+                    "label": "New York, New York",
+                    "value": "New York, New York"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 53,
+            "name": "Stainless",
+            "numJobs": 0,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "andreessen-horowitz",
+                "felicis",
+                "sequoia-capital",
+                "remotely"
+            ],
+            "parents": [
+                "Andreessen Horowitz",
+                "Felicis",
+                "Sequoia Capital",
+                "Remotely"
+            ],
+            "slug": "stainless",
+            "stages": [
+                "10-100 employees",
+                "Series A"
+            ],
+            "stagesLV": [
+                {
+                    "id": "10-100 employees",
+                    "label": "10-100 employees",
+                    "value": "10-100 employees"
+                },
+                {
+                    "id": "Series A",
+                    "label": "Series A",
+                    "value": "Series A"
+                }
+            ],
+            "fundingLV": {
+                "id": "Series A",
+                "label": "Series A",
+                "value": "Series A"
+            },
+            "sizeLV": {
+                "id": "10-100 employees",
+                "label": "10-100 employees",
+                "value": "10-100 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://stainlessapi.com/",
+                "label": "stainlessapi.com"
+            }
+        },
+        {
+            "description": "Rockset is the world's fastest search and analytics database. With real-time indexing, full-featured SQL and cloud-native efficiency, it is the #1 alternative to Elasticsearch for building search, analytics and AI applications.",
+            "domain": "rockset.com",
+            "emailDomains": [
+                "rockset.com"
+            ],
+            "id": "Rockset",
+            "investorSlugs": [
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Sequoia Capital"
+            ],
+            "jobSources": [],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/812fda1c7049bfa35387087b79bef355_240_160?Expires=1861920000&Signature=pMAC1ZJSi0QzwfxsHXep4iFHP7GQnT6yvlWFlKT3KAFTJ5ioabJVmxIKe8XQmG2Ze3FKqGttXbKFpmui89MTzrRU6SPObvlGAZJBGeeCJNlPQEIwwpFBISDHP9k-mFcjOZmIaBSGW4dckHHHcOx9KcZOeeOMgS-0SLQGiRXGTxYtQqs5~I3K7uLjBn2GYP-q6oF5N2RIYdQNR7YozZUKDR1PdqPERUi8MX4CU2Iq-qGiIPW5gzJPr78hcBWNnYatw8Nmcs7Xv4aK14YhuvQLBEaFTOVJsTGSFu1-29wOMzz8tfjAXXg~V7KYpaO7uKcknmVmLv0xLEObP8GLghwUxg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 240
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/fd80e988a40e96e7e501f46de3fc2e31_100_100?Expires=1893456000&Signature=l~za5VR~37CsSMfxQT9iTM6aS1ExrEDjVxHM1Rv-5ezkp5eshBRdhCkBaAKA9bJwklICfPrcgXiuuA78ZrtqTyTUZOqaNLkuFiXQ5f64BnU-lFaf~xbh3cGtuwm6JcgXC-9QnYPPniKJQm2HPGlM~Hv-Sx8wvm-yQ~-K2nD-OmRkg9RBIslTy3fojfglE2C1UKU8j40ckNT5FugspeiAgSD4eM4KD9TVJFWA-ndmelj-pwVA632MJJ8xqsMkEDZnY8yiTOF7pdkoIugmKpNC~5K3nbNeKDXV731TaLXwpWR0UlhfZsNP9lB~J3~4SidVBJECALr-djiTF3DR4TznrQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Analytics",
+                "Cloud Services",
+                "Infrastructure",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Analytics",
+                    "label": "Analytics",
+                    "value": "Analytics"
+                },
+                {
+                    "id": "Cloud Services",
+                    "label": "Cloud Services",
+                    "value": "Cloud Services"
+                },
+                {
+                    "id": "Infrastructure",
+                    "label": "Infrastructure",
+                    "value": "Infrastructure"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "San Mateo, California"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "San Mateo, California",
+                    "label": "San Mateo, California",
+                    "value": "San Mateo, California"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 18,
+            "name": "Rockset",
+            "numJobs": 0,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "sequoia-capital"
+            ],
+            "parents": [
+                "Sequoia Capital"
+            ],
+            "slug": "rockset",
+            "stages": [
+                "10-100 employees"
+            ],
+            "stagesLV": [
+                {
+                    "id": "10-100 employees",
+                    "label": "10-100 employees",
+                    "value": "10-100 employees"
+                }
+            ],
+            "sizeLV": {
+                "id": "10-100 employees",
+                "label": "10-100 employees",
+                "value": "10-100 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://rockset.com/",
+                "label": "rockset.com"
+            }
+        },
+        {
+            "description": "Loom is a new kind of work communication tool, already helping millions of people get their message across through instantly shareable videos. Our users work at companies like HubSpot, Square, Uber, GrubHub and LinkedIn. Our mission is to empower everyone at work to communicate more effectively and get ahead, wherever they are.\n\nFounded in 2016, Loom has raised capital from top-tier investors including Sequoia, Kleiner Perkins, General Catalyst and Slack Fund.\n\nFor more information, visit www.loom.com.",
+            "domain": "loom.com",
+            "emailDomains": [
+                "loom.com"
+            ],
+            "id": "Loom",
+            "investorSlugs": [
+                "1517-fund",
+                "andreessen-horowitz",
+                "kleiner-perkins",
+                "sequoia-capital"
+            ],
+            "investors": [
+                "1517 Fund",
+                "Andreessen Horowitz",
+                "Kleiner Perkins",
+                "Sequoia Capital"
+            ],
+            "jobSources": [],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/f0f6221c4fabf5a3c26e4b6e75024f88_208_160?Expires=1861920000&Signature=dT-t4teHjdqGrFQBZbzF7noPzoh4TMOLTAPVjYUlU48WG0poSHaFoavTwlIkedgJ8gg7T4WhHnsP~itW4VBSLU-wbY~S4lCliMV5mUoPZZuxVt7Icwj38VjzXIW-uqUk4JT1bnSiNaJc5HZF253Mp-rbyZsYYSiY3a8aAlE9Z7FNSJq4hTALHLMC3ivLqBYvmuwmFsjC4yOEBy18c25ncCRP50P7oAiLmEuzC3Hxn93xijNm1Dwz2FQoLGFkRGcT-3cYf7q1c4nkN6ej~nzAQBhXX1ErhxyAHBMxiKggvWtA957ecFi6LCPx5nT1M9JWaLplfbzCjlcqDXf-2w6S6g__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 208
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/2db436001285a33062f64190470be32a_100_100?Expires=1893456000&Signature=R45fD6a7lqDeKHvR4XjYkObJkwHtlXzrNVN6TtF7ra~~W45ahunWbF9pT9T1zqn184ZoexfaMS9tPcTz2q~rFe8UWEmebpJ9le4ViI5jJ5Wt3otSVnRPeaPVk807krhtVEGr0sO7JkDKkiibq~CGIfi-QN3yia8nWjbeEvosD6Y6cwsiEW440kRrxrg8RCVQgCF4E1AmTwj6P8DxOb2wu1zNodexjPLh2tOLwFInDd7wOIjK4sDnYNl0Muf8j6oDelq2lWlvXY7d0eptJ9i-~MGpdHYekGU~tTmXTRFRGwD72Jg5eH2BGOGR9UOs-dOn70G9~Br1Xy3uRiKTpREMCA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Productivity",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Productivity",
+                    "label": "Productivity",
+                    "value": "Productivity"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "San Francisco, California"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "San Francisco, California",
+                    "label": "San Francisco, California",
+                    "value": "San Francisco, California"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 285,
+            "name": "Loom",
+            "numJobs": 0,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "1517-fund",
+                "andreessen-horowitz",
+                "kleiner-perkins",
+                "sequoia-capital"
+            ],
+            "parents": [
+                "1517 Fund",
+                "Andreessen Horowitz",
+                "Kleiner Perkins",
+                "Sequoia Capital"
+            ],
+            "slug": "loom",
+            "stages": [
+                "100-1000 employees"
+            ],
+            "stagesLV": [
+                {
+                    "id": "100-1000 employees",
+                    "label": "100-1000 employees",
+                    "value": "100-1000 employees"
+                }
+            ],
+            "sizeLV": {
+                "id": "100-1000 employees",
+                "label": "100-1000 employees",
+                "value": "100-1000 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://loom.com/",
+                "label": "loom.com"
+            }
+        },
+        {
+            "description": "By leveraging advanced machine learning, QueryPal analyzes your existing knowledge base to provide instant, accurate responses to customer inquiries, allowing your team to focus on complex issues and strategic initiatives.",
+            "domain": "ctrlstack.com",
+            "emailDomains": [
+                "ctrlstack.com",
+                "querypal.com"
+            ],
+            "id": "CtrlStack",
+            "investorSlugs": [
+                "sequoia-capital",
+                "webb-investment-network"
+            ],
+            "investors": [
+                "Sequoia Capital",
+                "Webb Investment Network"
+            ],
+            "jobSources": [
+                {
+                    "id": "angel",
+                    "label": "Angellist / Wellfound",
+                    "value": "angel",
+                    "count": 0
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/f61a81fa074f8ef7152678db44b8d5e5_288_160?Expires=1861920000&Signature=b5hW0lw0bbJSS95VsU5PnupIaYgj2cbId6kRT2fxdrgV7TgxOXtTjth8COSDP1lYjyHFcw5RiEveO~cSmek9Ly6KDcXLw9tr9OJn6YoDrBFVYXQgwLXhE0qyvWXaNQ-WKjLtGZkPZsxx7oQC7k3bXGxMY~7pPBi8KKY~BV2uvsJUPh~~4DJDTbsAJPH9i6YSyV-k-u4CBOQbC1ULnLGwnhPO2RxTsynNxKI034N-n1SxV~6Zf3TE0IRIElSwEtqR2XjbyggSvCiSPgRxmC8g-VpmitPTdVbNAzStYo6L6vWs2tKMHD6~-m3zv~l41HK1EuWlRhQ~t~Fm6MlHozcbtA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 288
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/00e8a943499fb66acadf7613406ef8f6_100_100?Expires=1893456000&Signature=TopDKfq7GfvzC4PPCQALZSvnOp13HHoqFkJFBGRxVDmXz61eforGb9t9D6PtmqPQhp3GZLxbIWe7QjhW5D35Jp9ZPGmRGXZWmpiGALtWlJZJhRu0TfoUITdDoBiuT3L0XvhuaL9D1uyYbNy2qQNs67Yzp6sb1vdp6xt~AcgAoxlooO7tAiH-WOoTRF0~7NOPqI1~~pSljm-TztsTj6Y9AAeeo5aBlfDTsX35fEmNaybB2A2FlsTg0zin2jIZS16FSxwK7kVaDJHfY~imrkPrtTSrluHyMRxTcSiJzRYE1F~hqgQ3gLVJsa4y8ABV3atniO4dBYqraKGFT7K1m21KHQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Enterprise Software",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "San Francisco, California"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "San Francisco, California",
+                    "label": "San Francisco, California",
+                    "value": "San Francisco, California"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 8,
+            "name": "QueryPal",
+            "numJobs": 0,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "sequoia-capital",
+                "webb-investment-network"
+            ],
+            "parents": [
+                "Sequoia Capital",
+                "Webb Investment Network"
+            ],
+            "slug": "ctrlstack",
+            "stages": [
+                "1-10 employees",
+                "Seed funded"
+            ],
+            "stagesLV": [
+                {
+                    "id": "1-10 employees",
+                    "label": "1-10 employees",
+                    "value": "1-10 employees"
+                },
+                {
+                    "id": "Seed funded",
+                    "label": "Seed",
+                    "value": "Seed funded"
+                }
+            ],
+            "fundingLV": {
+                "id": "Seed funded",
+                "label": "Seed",
+                "value": "Seed funded"
+            },
+            "sizeLV": {
+                "id": "1-10 employees",
+                "label": "1-10 employees",
+                "value": "1-10 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://www.querypal.com/",
+                "label": "ctrlstack.com"
+            }
+        },
+        {
+            "description": "Clari’s Revenue Operations Platform improves efficiency, predictability, and growth across the entire revenue process. Clari gives revenue teams total visibility into their business, to drive process rigor, spot risk and opportunity in the pipeline, increase forecast accuracy, and drive overall efficiency. \n\nThousands of sales, marketing, and customer success teams at leading companies, including Okta, Adobe, Workday, Zoom, and Finastra, use Clari’s execution insights to make their revenue process more connected, efficient, and predictable. \n\nVisit us at clari.com and follow us @clari on LinkedIn.",
+            "domain": "clari.com",
+            "emailDomains": [
+                "clari.com"
+            ],
+            "id": "Clari",
+            "investorSlugs": [
+                "bain-capital",
+                "bain-ventures",
+                "sequoia-capital",
+                "silver-lake",
+                "thomvest"
+            ],
+            "investors": [
+                "Bain Capital",
+                "Bain Ventures",
+                "Sequoia Capital",
+                "Silver Lake",
+                "Thomvest"
+            ],
+            "jobSources": [
+                {
+                    "id": "lever",
+                    "label": "Lever",
+                    "value": "lever",
+                    "count": 0
+                }
+            ],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/32fa540ebe877e5f651a0f2d9d3c03ce_216_160?Expires=1861920000&Signature=BnrM7t5-8hqu1aJ6FoozxzODdXD2EknB~SKqkVyZpnz5EbgayAFXtya9xfU23CC0ngea9A3ENVq-WHTJVHFqohvOg-nP7K9xXf3Fmrj6~jyKQN-vOXvGNQQvBUruiUcb9y~yMsFXrSeS0Mq5E0mfu00gqfTSVNESXgYrzkKTC-yZvZn0~4jlVOahKnIUEanoprMHaRsrJpMFgVDPmDK1XkDLxfCP4Y2-pkMlZN7I3CN-vXRAwv9pAts1JuI9uhlYOoyD5GpY3Knn04ZCPeq0au-vZ0pvADkbJtF16n6FcB7CRVBcPDDwuQi8s46Arr7qQihKFDv5XjXiKXLSLfnxxg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 216
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/eeac89cf68ad02b3b8f2f3099d2facff_100_100?Expires=1893456000&Signature=J4p8fU6Osd7NDqi12yfKh1Wwm3AyaL9JpEfz-~J-5M2uxRdRqxetOy7eL6Fmartq0GRf34G0WLKks5d9ISfZv3uaUh2BkmMOi7yv2B1KNCOgMWfagaxsNlaPNJlQL02J5h4b5fIRezJsKYHjPRTVKtUzfpKqQ0qvMS24nToaZ27urrlRFRRP~ZtBNlmGZInVhUdq6Bvjn4cthmgT1UIqymw6z1HtPk4Wtwqu3Els4TUyrpwZu9SUyglk6B8xAPK0NnUoIBxvZr080LJwGVEXctr6qJ6xO63tUZWJnFFJCR3zt-t9pXr5AQaEssPHKDMCppGhC8UXpjFt3jCYKvtLtg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "Krakow",
+                "Bangalore",
+                "Sunnyvale, California"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "Krakow",
+                    "label": "Krakow",
+                    "value": "Krakow"
+                },
+                {
+                    "id": "Bengaluru Area, India",
+                    "label": "Bangalore",
+                    "value": "Bengaluru Area, India"
+                },
+                {
+                    "id": "Sunnyvale, California",
+                    "label": "Sunnyvale, California",
+                    "value": "Sunnyvale, California"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 571,
+            "name": "Clari",
+            "numJobs": 0,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "bain-capital",
+                "bain-ventures",
+                "sequoia-capital",
+                "silver-lake",
+                "thomvest",
+                "remotely"
+            ],
+            "parents": [
+                "Bain Capital",
+                "Bain Ventures",
+                "Sequoia Capital",
+                "Silver Lake",
+                "Thomvest",
+                "Remotely"
+            ],
+            "slug": "clari",
+            "stages": [
+                "100-1000 employees",
+                "Growth"
+            ],
+            "stagesLV": [
+                {
+                    "id": "100-1000 employees",
+                    "label": "100-1000 employees",
+                    "value": "100-1000 employees"
+                },
+                {
+                    "id": "Growth",
+                    "label": "Growth",
+                    "value": "Growth"
+                }
+            ],
+            "fundingLV": {
+                "id": "Growth",
+                "label": "Growth",
+                "value": "Growth"
+            },
+            "sizeLV": {
+                "id": "100-1000 employees",
+                "label": "100-1000 employees",
+                "value": "100-1000 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://clari.com/",
+                "label": "clari.com"
+            }
+        },
+        {
+            "description": "Census delivers trusted data from the warehouse into all your operational tools, so every team can act on it. Supercharge your automation, workflows, and personalization with operational analytics, no engineering favors or custom scripts required. ",
+            "domain": "getcensus.com",
+            "emailDomains": [
+                "getcensus.com"
+            ],
+            "id": "Census",
+            "investorSlugs": [
+                "andreessen-horowitz",
+                "gtmfund",
+                "prospect",
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Andreessen Horowitz",
+                "GTMfund",
+                "Prospect",
+                "Sequoia Capital"
+            ],
+            "jobSources": [],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/524956b256fdf4d4f6d9fd6a611e4643_288_160?Expires=1861920000&Signature=iVB~8RC0hY~FJLOUBlVhonhzlfijzJX11XEapzNuBoCpplVYhkET1P3F7w0-gpsTaJ42p~NRGiFXYSFzHiDRnauqr-oLTfl5DJLuVvbYuw2WAZzGwMDV3Z-B3wBSKiBmw~yYvXdHsLzN4U28kTUNvAHTf09Ad1wWgLiXaDaPlNzgZHqA7bv-zEtOfXYqxGvR5ZWpkVzEGpw6Byi7qF0n1fyaPAhOGU-xrHds43RvoE0vCk5vwPkLjdo4s741QdkEm68tLtZjHLk4-XJMEIT~rdr2tWh2UTh-ARlemTR9Dg7wy9NDJPVZMRGxTfJT6nFGt8PcB~KQjxgt2-58t~ujOw__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 288
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/2055ef0893ba65cb6901f54be854dc43_100_100?Expires=1893456000&Signature=ShIko6V~L2Uy~krjsf-oEYsMumGhzdlf2HZcmNJ2THiZcee71CD94b09Nb4qgmzVXskfLDvp4A8nUHl40cViAE8uHNKVCE7Iyn27dAFGAawaCpBMVUY2Hu38qtaqu6TlSLszX2w2gvtqAITP98pwQmyBE3uyZRE26UJ97O2CIxE87bcTdUHD8-WKjqFIoGegBdvpH8j47627XCGXc5VSZqLQJghxj~OvNZFz8hkDEY3vbOQJDgy1A-Bm1INfJo4OlyhfECPhGaO7j9244LWIqRHD1x~pUqWMFeIGUJEYEYn7g076U7-Sv4jpvtHtvafGzC~C--q1SwNPqVF28MRtag__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Analytics",
+                "Enterprise Software",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Analytics",
+                    "label": "Analytics",
+                    "value": "Analytics"
+                },
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "San Francisco, California",
+                "New York, New York"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "San Francisco, California",
+                    "label": "San Francisco, California",
+                    "value": "San Francisco, California"
+                },
+                {
+                    "id": "New York, New York",
+                    "label": "New York, New York",
+                    "value": "New York, New York"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 132,
+            "name": "Census",
+            "numJobs": 0,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "andreessen-horowitz",
+                "gtmfund",
+                "prospect",
+                "sequoia-capital",
+                "remotely"
+            ],
+            "parents": [
+                "Andreessen Horowitz",
+                "GTMfund",
+                "Prospect",
+                "Sequoia Capital",
+                "Remotely"
+            ],
+            "slug": "census",
+            "stages": [
+                "100-1000 employees"
+            ],
+            "stagesLV": [
+                {
+                    "id": "100-1000 employees",
+                    "label": "100-1000 employees",
+                    "value": "100-1000 employees"
+                }
+            ],
+            "sizeLV": {
+                "id": "100-1000 employees",
+                "label": "100-1000 employees",
+                "value": "100-1000 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://getcensus.com/",
+                "label": "getcensus.com"
+            }
+        },
+        {
+            "description": "Acelerate is a technology platform powering the next generation of restaurants, suppliers and distributors. Join thousands of restaurants on a mission to lower food costs while bringing great food to more people.\n\nWe are obsessed with creating a people-first inclusive company and are committed to enabling our teammates to build a great life and career. We believe people do their best work when they have purpose, autonomy, endless opportunities for growth, and we work hard to make this possible.\n\nWe’ve raised $14.4M to date and are backed by Sequoia Capital.",
+            "domain": "acelerate.io",
+            "emailDomains": [
+                "acelerate.io"
+            ],
+            "id": "Acelerate",
+            "investorSlugs": [
+                "sequoia-capital"
+            ],
+            "investors": [
+                "Sequoia Capital"
+            ],
+            "jobSources": [],
+            "logos": {
+                "manual": {
+                    "height": 160,
+                    "src": "https://dzh2zima160vx.cloudfront.net/logo/89b4bc37b066eb5a28e6069eb0b2275a_320_160?Expires=1861920000&Signature=e9NdXtJC-kAYlYCxdygR7vfEfvtihNwAD5b66yo~NWw0nr0XYGkf0BqdQgPeBoLxDp8J71ncC~mNSVjraIYmI-NU2ZHvTprhj9rOaJRWeQmOQ8CXb2noQ~rGMnu9A6jRAbkL0zteC1L4XOjeMPrJ0eAyYaAuowqutRcKUiFnMp~zNfkPVuoQpsRBEtEGq-efn8eu4S90Y9tU7vFqBg1cH756DDZG6YDWnl5K8eSGCimr71PmwT2uSkxfpejtRyo~4pVujtflSTRTPj8uBw-uvQiVfleo88AHiJG~d4sLziHvKuPNnrMLo6I1LIGxYeaa3VIMe8fdRAaeYAh-sqVlWQ__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 320
+                },
+                "linkedin": {
+                    "height": 100,
+                    "src": "https://dzh2zima160vx.cloudfront.net/profile/5473416d1d87973308d1852f8f7bcf41_100_100?Expires=1893456000&Signature=RhSKcPlPpN~Wo0H0F0tPFZg2i4zLOSJ4yT4D~DNtKeh4pvUi6lqu8fk27C2rLJZNhDMq1gOa0ygVZopmQrI3CXznQwqHmgKpiNivTWdbiazCXe4YeTK1pmjEe~~yTzMjaVhMltYy9hSqbv8SWOvXd1Gdt6itwXL3ezG6QdKqmCcNCqAvVDGObT1~LaT-avc6NEe~47zFpFKDgEziDDogcZsF0TcfhkNncmG3FHg8GU~je8SmHVS2oy4k6LAIEdtZBi3CHVsjhtTKHTSdczu-KRni6VVKnQ4zIIVYy2vxLbL4~Rx~daG5BdOBhKEhQ9uIjHioneUi16-mKK~O5FlkzA__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q",
+                    "width": 100
+                }
+            },
+            "markets": [
+                "Enterprise Software",
+                "Restaurants",
+                "SaaS"
+            ],
+            "marketsLV": [
+                {
+                    "id": "Enterprise Software",
+                    "label": "Enterprise Software",
+                    "value": "Enterprise Software"
+                },
+                {
+                    "id": "Restaurants",
+                    "label": "Restaurants",
+                    "value": "Restaurants"
+                },
+                {
+                    "id": "SaaS",
+                    "label": "SaaS",
+                    "value": "SaaS"
+                }
+            ],
+            "officeLocations": [
+                "Greater Los Angeles Area"
+            ],
+            "officeLocationsLV": [
+                {
+                    "id": "Greater Los Angeles Area",
+                    "label": "Greater Los Angeles Area",
+                    "value": "Greater Los Angeles Area"
+                }
+            ],
+            "skills": [],
+            "skillsLV": [],
+            "staffCount": 9,
+            "name": "Acelerate",
+            "numJobs": 0,
+            "numRemoteJobs": 0,
+            "fractionRemote": 0,
+            "numInternships": 0,
+            "numManagerJobs": 0,
+            "parentSlugs": [
+                "sequoia-capital"
+            ],
+            "parents": [
+                "Sequoia Capital"
+            ],
+            "slug": "acelerate",
+            "stages": [
+                "1-10 employees",
+                "Series A"
+            ],
+            "stagesLV": [
+                {
+                    "id": "1-10 employees",
+                    "label": "1-10 employees",
+                    "value": "1-10 employees"
+                },
+                {
+                    "id": "Series A",
+                    "label": "Series A",
+                    "value": "Series A"
+                }
+            ],
+            "fundingLV": {
+                "id": "Series A",
+                "label": "Series A",
+                "value": "Series A"
+            },
+            "sizeLV": {
+                "id": "1-10 employees",
+                "label": "1-10 employees",
+                "value": "1-10 employees"
+            },
+            "isFeatured": false,
+            "isRemoteFriendly": false,
+            "website": {
+                "url": "https://acelerate.io/",
+                "label": "acelerate.io"
+            }
+        }
+    ],
+    "total": 41,
+    "meta": {
+        "size": 42
+    },
+    "availableFilters": [
+        {
+            "param": "industry",
+            "value": "SaaS",
+            "total": 41,
+            "score": 41,
+            "label": "SaaS"
+        },
+        {
+            "param": "industry",
+            "value": "Fintech",
+            "total": 30,
+            "score": 30,
+            "label": "FinTech"
+        },
+        {
+            "param": "industry",
+            "value": "Enterprise Software",
+            "total": 23,
+            "score": 23,
+            "label": "Enterprise Software"
+        },
+        {
+            "param": "industry",
+            "value": "Productivity",
+            "total": 21,
+            "score": 21,
+            "label": "Productivity"
+        },
+        {
+            "param": "industry",
+            "value": "AI",
+            "total": 21,
+            "score": 21,
+            "label": "AI"
+        },
+        {
+            "param": "industry",
+            "value": "Computer & Network Security",
+            "total": 16,
+            "score": 16,
+            "label": "Computer & Network Security"
+        },
+        {
+            "param": "industry",
+            "value": "Consumer",
+            "total": 14,
+            "score": 14,
+            "label": "Consumer"
+        },
+        {
+            "param": "industry",
+            "value": "ECommerce",
+            "total": 13,
+            "score": 13,
+            "label": "eCommerce"
+        },
+        {
+            "param": "industry",
+            "value": "Developer Tools",
+            "total": 12,
+            "score": 12,
+            "label": "Developer Tools"
+        },
+        {
+            "param": "industry",
+            "value": "Financial Services",
+            "total": 9,
+            "score": 9,
+            "label": "Financial Services"
+        },
+        {
+            "param": "industry",
+            "value": "Analytics",
+            "total": 9,
+            "score": 9,
+            "label": "Analytics"
+        },
+        {
+            "param": "industry",
+            "value": "Hospital & Health Care",
+            "total": 8,
+            "score": 8,
+            "label": "Hospital & Health Care"
+        },
+        {
+            "param": "industry",
+            "value": "Consumer Services",
+            "total": 8,
+            "score": 8,
+            "label": "Consumer Services"
+        },
+        {
+            "param": "industry",
+            "value": "Blockchain",
+            "total": 8,
+            "score": 8,
+            "label": "Blockchain"
+        },
+        {
+            "param": "industry",
+            "value": "AI-Powered Applications",
+            "total": 8,
+            "score": 8,
+            "label": "AI-Powered Applications"
+        },
+        {
+            "param": "industry",
+            "value": "Social Networking",
+            "total": 7,
+            "score": 7,
+            "label": "Social Networking"
+        },
+        {
+            "param": "industry",
+            "value": "Biotech/Pharma",
+            "total": 7,
+            "score": 7,
+            "label": "Biotech/Pharma"
+        },
+        {
+            "param": "industry",
+            "value": "Transportation",
+            "total": 6,
+            "score": 6,
+            "label": "Transportation"
+        },
+        {
+            "param": "industry",
+            "value": "Hardware",
+            "total": 6,
+            "score": 6,
+            "label": "Hardware"
+        },
+        {
+            "param": "industry",
+            "value": "HR and Recruiting",
+            "total": 5,
+            "score": 5,
+            "label": "HR and Recruiting"
+        },
+        {
+            "param": "industry",
+            "value": "AI/ML",
+            "total": 5,
+            "score": 5,
+            "label": "AI/ML"
+        },
+        {
+            "param": "industry",
+            "value": "Security",
+            "total": 4,
+            "score": 4,
+            "label": "Security"
+        },
+        {
+            "param": "industry",
+            "value": "Real Estate",
+            "total": 4,
+            "score": 4,
+            "label": "Real Estate"
+        },
+        {
+            "param": "industry",
+            "value": "Marketing and Advertising",
+            "total": 4,
+            "score": 4,
+            "label": "Marketing and Advertising"
+        },
+        {
+            "param": "industry",
+            "value": "Infrastructure",
+            "total": 4,
+            "score": 4,
+            "label": "Infrastructure"
+        },
+        {
+            "param": "industry",
+            "value": "Health, Wellness and Fitness",
+            "total": 4,
+            "score": 4,
+            "label": "Health, Wellness and Fitness"
+        },
+        {
+            "param": "industry",
+            "value": "Data & Analytics",
+            "total": 4,
+            "score": 4,
+            "label": "Data & Analytics"
+        },
+        {
+            "param": "industry",
+            "value": "Crypto",
+            "total": 4,
+            "score": 4,
+            "label": "Crypto"
+        },
+        {
+            "param": "industry",
+            "value": "Cloud Services",
+            "total": 4,
+            "score": 4,
+            "label": "Cloud Services"
+        },
+        {
+            "param": "industry",
+            "value": "Video Games",
+            "total": 3,
+            "score": 3,
+            "label": "Video Games"
+        },
+        {
+            "param": "industry",
+            "value": "Telecommunications",
+            "total": 3,
+            "score": 3,
+            "label": "Telecommunications"
+        },
+        {
+            "param": "industry",
+            "value": "Renewables & Environment",
+            "total": 3,
+            "score": 3,
+            "label": "Renewables & Environment"
+        },
+        {
+            "param": "industry",
+            "value": "Manufacturing",
+            "total": 3,
+            "score": 3,
+            "label": "Manufacturing"
+        },
+        {
+            "param": "industry",
+            "value": "Legal Services",
+            "total": 3,
+            "score": 3,
+            "label": "Legal Services"
+        },
+        {
+            "param": "industry",
+            "value": "Entertainment",
+            "total": 3,
+            "score": 3,
+            "label": "Entertainment"
+        },
+        {
+            "param": "industry",
+            "value": "DeFi",
+            "total": 3,
+            "score": 3,
+            "label": "DeFi"
+        },
+        {
+            "param": "industry",
+            "value": "Cybersecurity",
+            "total": 3,
+            "score": 3,
+            "label": "Cybersecurity"
+        },
+        {
+            "param": "industry",
+            "value": "Apparel & Fashion",
+            "total": 3,
+            "score": 3,
+            "label": "Apparel & Fashion"
+        },
+        {
+            "param": "industry",
+            "value": "Retail",
+            "total": 2,
+            "score": 2,
+            "label": "Retail"
+        },
+        {
+            "param": "industry",
+            "value": "Payments",
+            "total": 2,
+            "score": 2,
+            "label": "Payments"
+        },
+        {
+            "param": "industry",
+            "value": "NFT",
+            "total": 2,
+            "score": 2,
+            "label": "NFT"
+        },
+        {
+            "param": "industry",
+            "value": "Logistics and Supply Chain",
+            "total": 2,
+            "score": 2,
+            "label": "Logistics and Supply Chain"
+        },
+        {
+            "param": "industry",
+            "value": "Investment Management",
+            "total": 2,
+            "score": 2,
+            "label": "Investment Management"
+        },
+        {
+            "param": "industry",
+            "value": "Insurance",
+            "total": 2,
+            "score": 2,
+            "label": "Insurance"
+        },
+        {
+            "param": "industry",
+            "value": "IT and Services",
+            "total": 2,
+            "score": 2,
+            "label": "IT and Services"
+        },
+        {
+            "param": "industry",
+            "value": "Food & Beverages",
+            "total": 2,
+            "score": 2,
+            "label": "Food & Beverages"
+        },
+        {
+            "param": "industry",
+            "value": "FinTech & Blockchain",
+            "total": 2,
+            "score": 2,
+            "label": "FinTech & Blockchain"
+        },
+        {
+            "param": "industry",
+            "value": "Delivery Services",
+            "total": 2,
+            "score": 2,
+            "label": "Delivery Services"
+        },
+        {
+            "param": "industry",
+            "value": "Computer Networking",
+            "total": 2,
+            "score": 2,
+            "label": "Computer Networking"
+        },
+        {
+            "param": "industry",
+            "value": "Banking",
+            "total": 2,
+            "score": 2,
+            "label": "Banking"
+        },
+        {
+            "param": "industry",
+            "value": "Automation & Robotics",
+            "total": 2,
+            "score": 2,
+            "label": "Automation & Robotics"
+        },
+        {
+            "param": "industry",
+            "value": "Agile Workplace",
+            "total": 2,
+            "score": 2,
+            "label": "Agile Workplace"
+        },
+        {
+            "param": "industry",
+            "value": "Wireless",
+            "total": 1,
+            "score": 1,
+            "label": "Wireless"
+        },
+        {
+            "param": "industry",
+            "value": "Web3",
+            "total": 1,
+            "score": 1,
+            "label": "Web3"
+        },
+        {
+            "param": "industry",
+            "value": "Virtual Reality",
+            "total": 1,
+            "score": 1,
+            "label": "VR/Augmented Reality"
+        },
+        {
+            "param": "industry",
+            "value": "Venture Capital & Private Equity",
+            "total": 1,
+            "score": 1,
+            "label": "Venture Capital & Private Equity"
+        },
+        {
+            "param": "industry",
+            "value": "Sustainable Production and Consumption",
+            "total": 1,
+            "score": 1,
+            "label": "Sustainable Production and Consumption"
+        },
+        {
+            "param": "industry",
+            "value": "Sports",
+            "total": 1,
+            "score": 1,
+            "label": "Sports"
+        },
+        {
+            "param": "industry",
+            "value": "SaaS Business App",
+            "total": 1,
+            "score": 1,
+            "label": "SaaS Business App"
+        },
+        {
+            "param": "industry",
+            "value": "Restaurants",
+            "total": 1,
+            "score": 1,
+            "label": "Restaurants"
+        },
+        {
+            "param": "industry",
+            "value": "Prediction Markets",
+            "total": 1,
+            "score": 1,
+            "label": "Prediction Markets"
+        },
+        {
+            "param": "industry",
+            "value": "Online Media",
+            "total": 1,
+            "score": 1,
+            "label": "Digital Media"
+        },
+        {
+            "param": "industry",
+            "value": "Marketplace",
+            "total": 1,
+            "score": 1,
+            "label": "Marketplace"
+        },
+        {
+            "param": "industry",
+            "value": "Life Sciences",
+            "total": 1,
+            "score": 1,
+            "label": "Life Sciences"
+        },
+        {
+            "param": "industry",
+            "value": "IoT",
+            "total": 1,
+            "score": 1,
+            "label": "IoT"
+        },
+        {
+            "param": "industry",
+            "value": "Higher Education",
+            "total": 1,
+            "score": 1,
+            "label": "Higher Education"
+        },
+        {
+            "param": "industry",
+            "value": "Healthcare",
+            "total": 1,
+            "score": 1,
+            "label": "Healthcare"
+        },
+        {
+            "param": "industry",
+            "value": "Environmental Services",
+            "total": 1,
+            "score": 1,
+            "label": "Environmental Services"
+        },
+        {
+            "param": "industry",
+            "value": "Education Management",
+            "total": 1,
+            "score": 1,
+            "label": "Education Management"
+        },
+        {
+            "param": "industry",
+            "value": "Digital Health",
+            "total": 1,
+            "score": 1,
+            "label": "Digital Health"
+        },
+        {
+            "param": "industry",
+            "value": "Defense & Space",
+            "total": 1,
+            "score": 1,
+            "label": "Defense & Space"
+        },
+        {
+            "param": "industry",
+            "value": "Cosmetics",
+            "total": 1,
+            "score": 1,
+            "label": "Cosmetics"
+        },
+        {
+            "param": "industry",
+            "value": "Consumer Electronics",
+            "total": 1,
+            "score": 1,
+            "label": "Consumer Electronics"
+        },
+        {
+            "param": "industry",
+            "value": "Computer Vision",
+            "total": 1,
+            "score": 1,
+            "label": "Computer Vision"
+        },
+        {
+            "param": "industry",
+            "value": "Capital Markets",
+            "total": 1,
+            "score": 1,
+            "label": "Capital Markets"
+        },
+        {
+            "param": "industry",
+            "value": "Business Services",
+            "total": 1,
+            "score": 1,
+            "label": "Business Services"
+        },
+        {
+            "param": "industry",
+            "value": "Aviation & Aerospace",
+            "total": 1,
+            "score": 1,
+            "label": "Aviation & Aerospace"
+        },
+        {
+            "param": "industry",
+            "value": "Autonomous Vehicles",
+            "total": 1,
+            "score": 1,
+            "label": "Autonomous Vehicles"
+        },
+        {
+            "param": "stage",
+            "value": "Seed funded",
+            "total": 24,
+            "score": 24,
+            "label": "Seed"
+        },
+        {
+            "param": "funding_stage",
+            "value": "Seed funded",
+            "total": 24,
+            "score": 24,
+            "label": "Seed"
+        },
+        {
+            "param": "stage",
+            "value": "Series A",
+            "total": 46,
+            "score": 46,
+            "label": "Series A"
+        },
+        {
+            "param": "funding_stage",
+            "value": "Series A",
+            "total": 46,
+            "score": 46,
+            "label": "Series A"
+        },
+        {
+            "param": "stage",
+            "value": "Growth",
+            "total": 142,
+            "score": 142,
+            "label": "Growth (Series B or later)"
+        },
+        {
+            "param": "funding_stage",
+            "value": "Growth",
+            "total": 142,
+            "score": 142,
+            "label": "Growth (Series B or later)"
+        },
+        {
+            "param": "stage",
+            "value": "Public",
+            "total": 2,
+            "score": 2,
+            "label": "Public"
+        },
+        {
+            "param": "funding_stage",
+            "value": "Public",
+            "total": 2,
+            "score": 2,
+            "label": "Public"
+        },
+        {
+            "param": "stage",
+            "value": "1-10 employees",
+            "total": 11,
+            "score": 11,
+            "label": "1-10 employees"
+        },
+        {
+            "param": "stage",
+            "value": "10-100 employees",
+            "total": 81,
+            "score": 81,
+            "label": "10-100 employees"
+        },
+        {
+            "param": "stage",
+            "value": "100-1000 employees",
+            "total": 111,
+            "score": 111,
+            "label": "100-1000 employees"
+        },
+        {
+            "param": "stage",
+            "value": "1000+ employees",
+            "total": 45,
+            "score": 45,
+            "label": "1000+ employees"
+        },
+        {
+            "param": "count",
+            "value": "all",
+            "total": 255
+        },
+        {
+            "param": "count",
+            "value": "featured",
+            "total": 25
+        }
+    ],
+    "errors": [],
+    "debug": []
+}
