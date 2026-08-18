@@ -66,5 +66,19 @@ class KhoslaConfig(BrowserConfig):
     processed_json_file: Path = PROCESSED_DATA_DIR / "khosla_companies.json"
     processed_csv_file: Path = PROCESSED_DATA_DIR / "khosla_companies.csv"
 
+@dataclass
+class AccelConfig(BrowserConfig):
+    """Configuration settings specific to Accel scraper operations."""
+    
+    # Target URLs & Endpoints
+    base_url: str = "https://jobs.accel.com"
+    companies_page_url: str = "https://jobs.accel.com/companies"
+    target_api_pattern: str = "api/v2/collections/8672/search/companies"
+    
+    # Output file paths
+    raw_output_file: Path = RAW_DATA_DIR / "accel_raw.json"
+    processed_json_file: Path = PROCESSED_DATA_DIR / "accel_companies.json"
+    processed_csv_file: Path = PROCESSED_DATA_DIR / "accel_companies.csv"
+
 # Default instance (for backward compatibility / quick access, usually replaced dynamically)
 config = SequoiaConfig()

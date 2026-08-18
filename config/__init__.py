@@ -1,6 +1,7 @@
 from .config import (
     SequoiaConfig,
     KhoslaConfig,
+    AccelConfig,
     config,
     ALL_INDUSTRIES,
 )
@@ -16,6 +17,7 @@ __all__ = [
     "BrowserConfig",
     "SequoiaConfig",
     "KhoslaConfig",
+    "AccelConfig",
     "config",
     "ALL_INDUSTRIES",
     "BASE_DIR",

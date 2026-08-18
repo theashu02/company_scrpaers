@@ -65,6 +65,11 @@ class CompanyModel:
     investors: List[str] = field(default_factory=list)
     investor_slugs: List[str] = field(default_factory=list)
     
+    # Extended detail fields
+    founded: Optional[str] = None
+    crunchbase_url: Optional[str] = None
+    org_type: Optional[str] = None
+    
     # Raw payload cache
     raw_payload: Dict[str, Any] = field(default_factory=dict)
 
@@ -129,6 +134,9 @@ class CompanyModel:
             "staff_count": self.staff_count or "",
             "email_domains": ", ".join(self.email_domains),
             "investors": ", ".join(self.investors),
+            "founded": self.founded or "",
+            "crunchbase_url": self.crunchbase_url or "",
+            "org_type": self.org_type or "",
             "description": (self.description or "").replace("\n", " ").strip(),
             "slug": self.slug,
             "id": self.id,
@@ -172,6 +180,12 @@ class CompanyModel:
             self.description = other.description
         if not self.staff_count and other.staff_count:
             self.staff_count = other.staff_count
+        if not self.founded and other.founded:
+            self.founded = other.founded
+        if not self.crunchbase_url and other.crunchbase_url:
+            self.crunchbase_url = other.crunchbase_url
+        if not self.org_type and other.org_type:
+            self.org_type = other.org_type
         if not self.ats_platform and other.ats_platform:
             self.ats_platform = other.ats_platform
 
@@ -210,6 +224,8 @@ class DataTransformer:
             website_url = raw["website"].get("url")
         elif isinstance(raw.get("website"), str):
             website_url = raw.get("website")
+        elif raw.get("websiteUrl"):
+            website_url = raw.get("websiteUrl")
         elif domain:
             website_url = f"https://{domain}"
 
@@ -234,6 +250,7 @@ class DataTransformer:
         facebook_url = raw.get("facebookUrl") or raw.get("facebook")
         instagram_url = raw.get("instagramUrl") or raw.get("instagram")
         youtube_url = raw.get("youtubeUrl") or raw.get("youtube")
+        crunchbase_url = raw.get("crunchbaseUrl") or raw.get("crunchbase")
 
         # Logos
         logos = raw.get("logos") or {}
@@ -246,6 +263,8 @@ class DataTransformer:
                 linkedin_logo_url = logos["linkedin"].get("src")
         elif isinstance(raw.get("logo"), str):
             logo_url = raw.get("logo")
+        elif raw.get("logoUrl"):
+            logo_url = raw.get("logoUrl")
 
         # Industries, markets, and locations
         industries_list: List[str] = []
@@ -253,13 +272,32 @@ class DataTransformer:
             industries_list.extend(raw["industries"])
         elif isinstance(raw.get("industry"), str) and raw.get("industry"):
             industries_list.append(raw["industry"])
+        if isinstance(raw.get("industryTags"), list):
+            industries_list.extend(raw["industryTags"])
         if industry_tag and industry_tag not in industries_list:
             industries_list.append(industry_tag)
 
         markets = raw.get("markets") or []
-        office_locations = raw.get("officeLocations") or []
-        stages = raw.get("stages") or []
-        staff_count = raw.get("staffCount")
+        
+        office_locations: List[str] = []
+        if isinstance(raw.get("officeLocations"), list):
+            office_locations.extend(raw["officeLocations"])
+        if isinstance(raw.get("locations"), list):
+            for loc in raw["locations"]:
+                if isinstance(loc, dict) and loc.get("name"):
+                    office_locations.append(loc["name"])
+                elif isinstance(loc, str):
+                    office_locations.append(loc)
+
+        stages: List[str] = []
+        if isinstance(raw.get("stages"), list):
+            stages.extend(raw["stages"])
+        if isinstance(raw.get("stage"), str) and raw.get("stage"):
+            stages.append(raw["stage"])
+
+        staff_count = raw.get("staffCount") or raw.get("approxEmployees")
+        founded = str(raw.get("founded") or "") or None
+        org_type = raw.get("orgType")
 
         description = raw.get("description") or raw.get("summary") or ""
         email_domains = raw.get("emailDomains") or raw.get("email_domains") or []
@@ -296,6 +334,9 @@ class DataTransformer:
             staff_count=staff_count,
             investors=list(set(investors)),
             investor_slugs=list(set(investor_slugs)),
+            founded=founded,
+            crunchbase_url=crunchbase_url,
+            org_type=org_type,
             raw_payload=raw
         )
 

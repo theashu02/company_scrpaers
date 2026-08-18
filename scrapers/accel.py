@@ -1,6 +1,6 @@
 """
-Khosla Ventures Company Scraper.
-Intercepts 'api.getro.com' responses and clicks the "Load more" button to collect all companies.
+Accel Scraper module.
+Handles interacting with Accel target using the Base Scraper architecture.
 """
 
 import asyncio
@@ -8,28 +8,30 @@ import json
 import logging
 from typing import Any, Dict, List, Optional
 
-from config.config import KhoslaConfig
+from config.config import AccelConfig
+from config.core_config import BrowserConfig
 from core.base_scraper import BaseScraper
 from transformers.datatransform import CompanyModel
 
 logger = logging.getLogger(__name__)
 
 
-class KhoslaScraper(BaseScraper):
+class AccelScraper(BaseScraper):
     """
-    Scraper for Khosla Ventures portfolio companies.
+    Scraper implementation for Accel.
+    Listens to API endpoints to extract JSON instead of parsing HTML.
     """
 
-    def __init__(self, cfg: Optional[KhoslaConfig] = None):
-        super().__init__(cfg or KhoslaConfig())
+    def __init__(self, cfg: Optional[AccelConfig] = None):
+        super().__init__(cfg or AccelConfig())
 
     async def scrape(self, save_raw: bool = True) -> List[CompanyModel]:
         """
-        Navigates to the Khosla companies page, intercepts API responses,
+        Navigates to the Accel companies page, intercepts API responses,
         and clicks 'Load more' until all companies are loaded.
         """
         url = self.cfg.companies_page_url
-        logger.info(f"Starting Khosla Ventures scrape: {url}")
+        logger.info(f"Starting Accel scrape: {url}")
 
         raw_responses: List[Dict[str, Any]] = []
         intercepted_companies: List[Dict[str, Any]] = []

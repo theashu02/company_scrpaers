@@ -1,0 +1,10 @@
+        # After clicking load more, we do a scroll till end to make sure all images/lazy-loading finishes
+        await self.scroll_till_end(
+            page, 
+            get_current_count, 
+            max_scrolls=max_scrolls, 
+            scroll_delay=1.0, 
+            api_pattern=api_pattern,
+            slow_scroll=True,
+            continue_condition=continue_condition
+        )

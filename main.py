@@ -14,6 +14,7 @@ from typing import List, Optional
 from config.config import SequoiaConfig, KhoslaConfig, BASE_DIR, ALL_INDUSTRIES
 from scrapers.sequoia import SequoiaScraper
 from scrapers.khosla import KhoslaScraper
+from scrapers.accel import AccelScraper
 
 
 def setup_logging(level: str = "INFO"):
@@ -38,6 +39,9 @@ async def run_live_scraper(
         cfg = KhoslaConfig()
         cfg.headless = headless
         scraper = KhoslaScraper(cfg)
+        companies = await scraper.scrape(save_raw=True)
+    elif target == "accel":
+        scraper = AccelScraper()
         companies = await scraper.scrape(save_raw=True)
     else:
         # Default to Sequoia
@@ -89,9 +93,9 @@ def main():
     )
     parser.add_argument(
         "--target",
-        choices=["sequoia", "khosla"],
+        choices=["sequoia", "khosla", "accel"],
         default="sequoia",
-        help="Target VC to scrape."
+        help="Target VC to scrape (default: sequoia)"
     )
     parser.add_argument(
         "--mode",

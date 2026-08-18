@@ -229,3 +229,34 @@ class HTTPClient:
                     raise
         return None
 
+    async def async_fetch_json(self, url: str, params: Optional[dict] = None) -> Optional[dict]:
+        """Asynchronously fetches JSON data using asyncio.to_thread and requests."""
+        return await asyncio.to_thread(self.fetch_json, url, params)
+
+    def fetch_text(self, url: str, params: Optional[dict] = None) -> Optional[str]:
+        """Synchronously fetches raw text with retry mechanism."""
+        import requests
+        headers = self.cfg.custom_headers.copy()
+        headers["User-Agent"] = self.cfg.user_agent
+
+        for attempt in range(1, self.cfg.max_retries + 1):
+            try:
+                response = requests.get(url, headers=headers, params=params, timeout=self.cfg.timeout_ms / 1000)
+                response.raise_for_status()
+                return response.text
+            except Exception as e:
+                logger.warning(f"Attempt {attempt}/{self.cfg.max_retries} failed for {url}: {e}")
+                if attempt == self.cfg.max_retries:
+                    return None
+        return None
+
+    def get_next_build_id(self, page_url: str) -> Optional[str]:
+        """Fetches page HTML and extracts Next.js buildId using regex."""
+        import re
+        html = self.fetch_text(page_url)
+        if not html:
+            return None
+        m = re.search(r'\"buildId\":\"([^\"]+)\"', html)
+        return m.group(1) if m else None
+
+
